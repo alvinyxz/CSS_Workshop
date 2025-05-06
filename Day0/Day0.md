@@ -18,7 +18,7 @@ The GitHub page is organized into eight folders: Day 0 through Day 7, each corre
 | :- | :- | :- |
 | Day 0 | Software Set-Up | CSS Classics |
 | Day 1 Morning | [Solomon Messing](https://solomonmg.github.io/) Guest Lecture | XXX |
-| Day 1 Afternoon | -Discuss CSS Overview<br/> - Get Started with R/Python | XXX |
+| Day 1 Afternoon | - Discuss CSS Overview<br/> - Get Started with R/Python | XXX |
 | Day 2 Morning | XXX | XXX |
 | Day 2 Afternoon | XXX | XXX |
 | Day 3 Morning | XXX | XXX |
