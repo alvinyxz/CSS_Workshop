@@ -1,7 +1,7 @@
 # Day 0: Syllabus, Schedules, and Overview
 
 - **Date:** June 2–6 and June 9–10
-- **Time:** Every day, 9:00 AM–12:00 PM and 1:00 PM–4:00 PM
+- **Time:** Every day, 9:00 AM–12:00 PM and 1:00 PM–4:00 PM; Catered Lunch on Day 1 and Day 7
 - **Location:** In person, Room 32 (basement), Murphy Hall, UMN Twin Cities
 
 Welcome to the inaugural Computational Social Science (CSS) Workshop, hosted by the College of Liberal Arts (CLA) Data Science Initiative at the University of Minnesota.
@@ -14,12 +14,20 @@ The GitHub page is organized into eight folders: Day 0 through Day 7, each corre
 
 # Syllabus
 
-| Dates              | Topic | Readings, Assignments, and To-Dos |
-| :---------------- |    :------ | :---- |
-| Day 0        |   Software Set-Up   | CSS Classics |
-| Day 1 Morning     | [Solomon Messing](https://solomonmg.github.io/) Guest Lecture | XXX |
-| Day 1 Afternoon   |   <ul><li>Discuss CSS Overview</li><li>Get Started with R/Python</li></ul> | XXX |
-| Day 6 Morning  | [Yingdan Lu](https://yingdanlu.com) Guest Lecture | 19.99 |
-| Day 6 Afternoon |  XXX   | XXX |
-| Day 7 Morning |  XXX   | XXX |
-| Day 7 Afternoon |  XXX   | XXX |
+| Dates | Topic | Readings, Assignments, and To-Dos |
+| :- | :- | :- |
+| Day 0 | Software Set-Up | CSS Classics |
+| Day 1 Morning | [Solomon Messing](https://solomonmg.github.io/) Guest Lecture | XXX |
+| Day 1 Afternoon | -Discuss CSS Overview<br/> - Get Started with R/Python | XXX |
+| Day 2 Morning | XXX | XXX |
+| Day 2 Afternoon | XXX | XXX |
+| Day 3 Morning | XXX | XXX |
+| Day 3 Afternoon | XXX | XXX |
+| Day 4 Morning | XXX | XXX |
+| Day 4 Afternoon | XXX | XXX |
+| Day 5 Morning | XXX | XXX |
+| Day 6 Afternoon | XXX | XXX |
+| Day 6 Morning | [Yingdan Lu](https://yingdanlu.com) Guest Lecture | XXX |
+| Day 6 Afternoon | XXX | XXX |
+| Day 7 Morning | XXX | XXX |
+| Day 7 Afternoon | XXX | XXX |
