@@ -17,9 +17,9 @@ The GitHub page is organized into eight folders: Day 0 through Day 7, each corre
 | Dates              | Topic | Readings, Assignments, and To-Dos |
 | :---------------- |    :------ | :---- |
 | Day 0        |   Software Set-Up   | CSS Classics |
-| Day 1 Morning     |   Guest Lecture - [Solomon Messing](https://solomonmg.github.io/) | XXX |
+| Day 1 Morning     | [Solomon Messing](https://solomonmg.github.io/) Guest Lecture | XXX |
 | Day 1 Afternoon   |   <ul><li>Discuss CSS Overview</li><li>Get Started with R/Python</li></ul> | XXX |
-| Day 6 Morning  |  Guest Lecture - [Yingdan Lu](https://yingdanlu.com) | 19.99 |
+| Day 6 Morning  | [Yingdan Lu](https://yingdanlu.com) Guest Lecture | 19.99 |
 | Day 6 Afternoon |  XXX   | XXX |
 | Day 7 Morning |  XXX   | XXX |
 | Day 7 Afternoon |  XXX   | XXX |
