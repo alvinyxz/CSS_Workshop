@@ -1,8 +1,10 @@
-# Day 0: Syllabus, Schedules, and Overview
+# Day 0: Welcome, Schedule, and Resources
 
 - **Date:** June 2–6 and June 9–10
 - **Time:** Every day, 9:00 AM–12:00 PM and 1:00 PM–4:00 PM; Catered Lunch on Day 1 and Day 7
 - **Location:** In person, Room 32 (basement), Murphy Hall, UMN Twin Cities
+
+## Welcome
 
 Welcome to the inaugural Computational Social Science (CSS) Workshop, hosted by the College of Liberal Arts (CLA) Data Science Initiative at the University of Minnesota.
 
@@ -12,7 +14,7 @@ All learning materials---including the syllabus, readings, sample data, and codi
 
 The GitHub page is organized into eight folders: Day 0 through Day 7, each corresponding to a workshop day, with Day 0 providing start-up information. In each folder, you will find a corresponding ".md" file that introduces the class content and serves as the guide for that day's material. You are currently reading Day0.md under the Day0 folder.
 
-# Syllabus
+## Schedule
 
 | Dates | Topic | Readings, Assignments, and To-Dos |
 | :- | :- | :- |
@@ -31,3 +33,5 @@ The GitHub page is organized into eight folders: Day 0 through Day 7, each corre
 | Day 6 Afternoon | XXX | XXX |
 | Day 7 Morning | XXX | XXX |
 | Day 7 Afternoon | XXX | XXX |
+
+## Resources
