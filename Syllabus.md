@@ -16,7 +16,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 
 ### Day 0
 
-- Software Set-Up
+- **Software Set-Up**
 - Readings
   - Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, A.-L., Brewer, D., Christakis, N., Contractor, N., Fowler, J., Gutmann, M., Jebara, T., King, G., Macy, M., Roy, D., & Van Alstyne, M. (2009). Computational social science. *Science, 323*(5915), 721–723. https://doi.org/10.1126/science.1167742
   - Lazer, D., Pentland, A., Watts, D. J., Aral, S., Contractor, N., Freelon, D., Gonzalez-Bailon, S., King, G., Nelson, A., Salganik, J., Strohmaier, M., Vespignani, A., & Wagner, C. (2020). Computational social science: Obstacles and opportunities. *Science, 369*(6507), 1060–1062. https://doi.org/10.1126/science.aaz8170
@@ -24,28 +24,31 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 
 ### Day 1 Morning
 
-- [Solomon Messing](https://solomonmg.github.io/) Guest Lecture with Catered Lunch
-- Readings
+- **[Solomon Messing](https://solomonmg.github.io/) Guest Lecture with Catered Lunch**
+- **Readings**
   - Aggarwal, M., Allen, J., Coppock, A., Frankowski, D., Messing, S., Zhang, K., Barnes, J., Beasley, A., Hantman, H., & Zheng, S. (2023). A 2 million-person, campaign-wide field experiment shows how digital advertising affects voter turnout. *Nature Human Behaviour, 7*(3), 332–341. https://doi.org/10.1038/s41562-022-01487-4
   - Bakshy, E., Messing, S., & Adamic, L. A. (2015). Exposure to ideologically diverse news and opinion on Facebook. *Science, 348*(6239), 1130–1132. https://doi.org/10.1126/science.aaa1160
   - TBD
 
 ### Day 1 Afternoon
 
-- **Seminar:** CSS Overview
-- **Lab:** Get Started with R/Python
+- **Seminar: CSS Overview**
+- **Lab: Get Started with R/Python**
 
 ### Day 2 Morning
 
-- **Seminar:** Text
-- Readings
+- **Seminar: Text**
+- **Readings**
   - Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. *Psychological Science, 32*(1), 14–26. https://doi.org/10.1177/0956797620960397
   - Jaidka, K., Zhou, A., & Lelkes, Y. (2019). Brevity is the soul of Twitter: The constraint affordance and political discussion. *Journal of Communication, 69*(4), 345–372. https://doi.org/10.1093/joc/jqz023
   - TBD
 
 ### Day 2 Afternoon
 
-- **Lab**: LIWC, Sentiment, and Topic Modeling
+- **Lab: Text**
+  - LIWC
+  - Sentiment
+  - Topic Modeling
 
 ### Day 3 Morning
 
@@ -57,8 +60,8 @@ TBD
 
 ### Day 4 Morning
 
-- **Seminar:** Social Network Analysis
-- Reading
+- **Seminar: Networks**
+- **Reading**
   - Park, P. S., Blumenstock, J. E., & Macy, M. W. (2018). The strength of long-range ties in population-scale social networks. *Science, 362*(6421), 1410–1413. https://doi.org/10.1126/science.aau9735
   - Schlosser, F., Maier, B. F., Jack, O., Hinrichs, D., Zachariae, A., & Brockmann, D. (2020). COVID-19 lockdown induces disease-mitigating structural changes in mobility networks. *Proceedings of the National Academy of Sciences, 117*(52), 32883–32890. https://doi.org/10.1073/pnas.2012326117
   - Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the Social Network and the Evolution of the Influence of Ancient Chinese Poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182
@@ -66,7 +69,7 @@ TBD
 
 ### Day 4 Afternoon
 
-- **Lab:** Social Network Analysis
+- **Lab: Networks**
 
 ### Day 5 Morning
 
@@ -78,13 +81,13 @@ TBD
 
 ### Day 6 Morning
 
-- [Yingdan Lu](https://yingdanlu.com) Guest Lecture with Catered Lunch
-- Reading
+- **[Yingdan Lu](https://yingdanlu.com) Guest Lecture with Catered Lunch**
+- **Reading**
   - TBD
 
 ### Day 6 Afternoon
 
-- **Lab: Images/Videos Analysis**
+- **Lab: Images/Videos**
 
 ### Day 7 Morning
 
@@ -103,13 +106,13 @@ TBD
 
 ### Day 7 Afternoon
 
-- Seminar: LLM
-- Lab: LLM
+- **Seminar: LLM**
+- **Lab: LLM**
 
 ## Additional Resources
 
 In addition to the required readings, below is a list of supplementary materials and resources that may enhance your understanding of the topics covered in the workshop.
 
-| Dates | Text Analysis | - Grimmer, J., Roberts, M. E., & Stewart, B. M. (2021). Machine learning for social science: An agnostic approach. *Annual Review of Political Science, 24*(1), 395–419. https://doi.org/10.1146/annurev-polisci-053119-015921 |
-| Day 1 | CSS Overview | XXX |
-| Day 2 | Text Analysis | XXX |
+### CSS Overview
+
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2021). Machine learning for social science: An agnostic approach. *Annual Review of Political Science, 24*(1), 395–419. https://doi.org/10.1146/annurev-polisci-053119-015921 |
