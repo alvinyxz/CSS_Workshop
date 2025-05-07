@@ -16,8 +16,8 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 
 ### Day 0 - Software Set-Up
 
-- **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day0/Day0.md
-- **Readings**
+- **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day0/Day0.md
+- **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day0/Day0
   - Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, A.-L., Brewer, D., Christakis, N., Contractor, N., Fowler, J., Gutmann, M., Jebara, T., King, G., Macy, M., Roy, D., & Van Alstyne, M. (2009). Computational social science. *Science, 323*(5915), 721–723. https://doi.org/10.1126/science.1167742
   - Lazer, D., Pentland, A., Watts, D. J., Aral, S., Contractor, N., Freelon, D., Gonzalez-Bailon, S., King, G., Nelson, A., Salganik, J., Strohmaier, M., Vespignani, A., & Wagner, C. (2020). Computational social science: Obstacles and opportunities. *Science, 369*(6507), 1060–1062. https://doi.org/10.1126/science.aaz8170
   - Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. *Nature, 595*(7866), 189–196. https://doi.org/10.1038/s41586-021-03660-7
@@ -28,7 +28,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 
 - **Morning**
   - **[Solomon Messing](https://solomonmg.github.io/) Guest Lecture with Catered Lunch**
-  - **Readings**
+  - **Readings:**
     - Aggarwal, M., Allen, J., Coppock, A., Frankowski, D., Messing, S., Zhang, K., Barnes, J., Beasley, A., Hantman, H., & Zheng, S. (2023). A 2 million-person, campaign-wide field experiment shows how digital advertising affects voter turnout. *Nature Human Behaviour, 7*(3), 332–341. https://doi.org/10.1038/s41562-022-01487-4
 - **Afternoon**
   - **Seminar - CSS Overview:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.md
@@ -64,9 +64,10 @@ TBD
     - Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science, 359*(6380), 1146–1151. https://doi.org/10.1126/science.aap9559
     - González-Bailón, S., Lazer, D., Barberá, P., Zhang, M., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A. M., Iyengar, S., Kim, Y. M., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C. V., Settle, J., Thorson, E., … Tucker, J. A. (2023). Asymmetric ideological segregation in exposure to political news on Facebook. *Science, 381*(6656), 392–398. https://doi.org/10.1126/science.ade7138
     - Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the social network and the evolution of the influence of ancient Chinese poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182
-    - Zhou, A., & Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. *Social Media + Society, 7*(3), 205630512110475. https://doi.org/10.1177/20563051211047545
+
 - **Afternoon**
   - **Lab - Networks:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
+    - Zhou, A., & Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. *Social Media + Society, 7*(3), 205630512110475. https://doi.org/10.1177/20563051211047545
 
 ### Day 5 - The Web, Computational Infrastructure, and Public Datasets
 
