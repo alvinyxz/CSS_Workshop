@@ -1,6 +1,6 @@
 # Syllabus
 
-- **Date:** June 2–6 and June 9–10
+- **Date:** June 2–6 and June 9–10, 2025
 - **Time:** Every day, 9:00 AM–12:00 PM and 1:00 PM–4:00 PM; Catered Lunch on Day 1 and Day 6 after guest lectures
 - **Location:** In person, Room 32 (basement), Murphy Hall, UMN Twin Cities
 
@@ -14,123 +14,110 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 
 ## Schedule
 
-### Day 0
+### Day 0 - Software Set-Up
 
-- **Software Set-Up**
-- Readings
+- **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day0/Day0.md
+- **Readings**
   - Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, A.-L., Brewer, D., Christakis, N., Contractor, N., Fowler, J., Gutmann, M., Jebara, T., King, G., Macy, M., Roy, D., & Van Alstyne, M. (2009). Computational social science. *Science, 323*(5915), 721–723. https://doi.org/10.1126/science.1167742
   - Lazer, D., Pentland, A., Watts, D. J., Aral, S., Contractor, N., Freelon, D., Gonzalez-Bailon, S., King, G., Nelson, A., Salganik, J., Strohmaier, M., Vespignani, A., & Wagner, C. (2020). Computational social science: Obstacles and opportunities. *Science, 369*(6507), 1060–1062. https://doi.org/10.1126/science.aaz8170
   - Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. *Nature, 595*(7866), 189–196. https://doi.org/10.1038/s41586-021-03660-7
   - Hofman, J. M., Watts, D. J., Athey, S., Garip, F., Griffiths, T. L., Kleinberg, J., Margetts, H., Mullainathan, S., Salganik, M. J., Vazire, S., Vespignani, A., & Yarkoni, T. (2021). Integrating explanation and prediction in computational social science. *Nature, 595*(7866), 181–188. https://doi.org/10.1038/s41586-021-03659-0
   - Wallach, H. (2018). Computational social science ≠ computer science + social data. *Communications of the ACM, 61*(3), 42–44. https://doi.org/10.1145/3132698
 
-### Day 1 Morning
+### Day 1 - CSS Overview
 
-- **[Solomon Messing](https://solomonmg.github.io/) Guest Lecture with Catered Lunch**
-- **Readings**
-  - Aggarwal, M., Allen, J., Coppock, A., Frankowski, D., Messing, S., Zhang, K., Barnes, J., Beasley, A., Hantman, H., & Zheng, S. (2023). A 2 million-person, campaign-wide field experiment shows how digital advertising affects voter turnout. *Nature Human Behaviour, 7*(3), 332–341. https://doi.org/10.1038/s41562-022-01487-4
-  - TBD
+- **Morning**
+  - **[Solomon Messing](https://solomonmg.github.io/) Guest Lecture with Catered Lunch**
+  - **Readings**
+    - Aggarwal, M., Allen, J., Coppock, A., Frankowski, D., Messing, S., Zhang, K., Barnes, J., Beasley, A., Hantman, H., & Zheng, S. (2023). A 2 million-person, campaign-wide field experiment shows how digital advertising affects voter turnout. *Nature Human Behaviour, 7*(3), 332–341. https://doi.org/10.1038/s41562-022-01487-4
+- **Afternoon**
+  - **Seminar - CSS Overview:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.md
+  - **Lab - Get Started with R/Python:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.md
 
-### Day 1 Afternoon
+### Day 2 - Text
 
-- **Seminar: CSS Overview**
-- **Lab: Get Started with R/Python**
+- **Morning**
+  - **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Day2.md
+  - **Readings**
+    - Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. *Psychological Science, 32*(1), 14–26. https://doi.org/10.1177/0956797620960397
+    - Jaidka, K., Zhou, A., & Lelkes, Y. (2019). Brevity is the soul of Twitter: The constraint affordance and political discussion. *Journal of Communication, 69*(4), 345–372. https://doi.org/10.1093/joc/jqz023
+    - Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/00491241221122528
+    - Toubia, O., Berger, J., & Eliashberg, J. (2021). How quantifying the shape of stories predicts their success. *Proceedings of the National Academy of Sciences, 118*(26), e2011695118. https://doi.org/10.1073/pnas.2011695118
+    - Seraj, S., Blackburn, K. G., & Pennebaker, J. W. (2021). Language left behind on social media exposes the emotional and cognitive costs of a romantic breakup. *Proceedings of the National Academy of Sciences, 118*(7), e2017154118. https://doi.org/10.1073/pnas.2017154118
+- **Afternoon**
+  - **Lab - Text:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Day2.md
+    - **LIWC:** Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. *Journal of Language and Social Psychology, 29*(1), 24–54. https://doi.org/10.1177/0261927X09351676
+    - **Sentiment**
+    - **Topic Modeling**
 
-### Day 2 Morning
-
-- **Seminar: Text**
-- **Readings**
-  - Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. *Psychological Science, 32*(1), 14–26. https://doi.org/10.1177/0956797620960397
-  - Jaidka, K., Zhou, A., & Lelkes, Y. (2019). Brevity is the soul of Twitter: The constraint affordance and political discussion. *Journal of Communication, 69*(4), 345–372. https://doi.org/10.1093/joc/jqz023
-  - Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/00491241221122528
-  - Toubia, O., Berger, J., & Eliashberg, J. (2021). How quantifying the shape of stories predicts their success. *Proceedings of the National Academy of Sciences, 118*(26), e2011695118. https://doi.org/10.1073/pnas.2011695118
-  - Seraj, S., Blackburn, K. G., & Pennebaker, J. W. (2021). Language left behind on social media exposes the emotional and cognitive costs of a romantic breakup. *Proceedings of the National Academy of Sciences, 118*(7), e2017154118. https://doi.org/10.1073/pnas.2017154118
-
-### Day 2 Afternoon
-
-- **Lab: Text**
-  - LIWC: Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. *Journal of Language and Social Psychology, 29*(1), 24–54. https://doi.org/10.1177/0261927X09351676
-  - Sentiment
-  - Topic Modeling
-
-### Day 3 Morning
+### Day 3 - TBD
 
 TBD
 
-### Day 3 Afternoon
+### Day 4 - Networks
 
-TBD
-
-### Day 4 Morning
-
-- **Seminar: Networks**
-- **Reading**
-  - Park, P. S., Blumenstock, J. E., & Macy, M. W. (2018). The strength of long-range ties in population-scale social networks. *Science, 362*(6421), 1410–1413. https://doi.org/10.1126/science.aau9735
-  - Schlosser, F., Maier, B. F., Jack, O., Hinrichs, D., Zachariae, A., & Brockmann, D. (2020). COVID-19 lockdown induces disease-mitigating structural changes in mobility networks. *Proceedings of the National Academy of Sciences, 117*(52), 32883–32890. https://doi.org/10.1073/pnas.2012326117
-  - Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science, 359*(6380), 1146–1151. https://doi.org/10.1126/science.aap9559
-  - González-Bailón, S., Lazer, D., Barberá, P., Zhang, M., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A. M., Iyengar, S., Kim, Y. M., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C. V., Settle, J., Thorson, E., … Tucker, J. A. (2023). Asymmetric ideological segregation in exposure to political news on Facebook. *Science, 381*(6656), 392–398. https://doi.org/10.1126/science.ade7138
-  - Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the social network and the evolution of the influence of ancient Chinese poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182
-  - Zhou, A., & Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. *Social Media + Society, 7*(3), 205630512110475. https://doi.org/10.1177/20563051211047545
-
-### Day 4 Afternoon
-
-- **Lab: Networks**
-
-### Day 5 Morning
-
-- **Seminar: The Web, Computational Infrastructure, and Public Datasets**
-- **Reading**
-  - Haroon, M., Wojcieszak, M., Chhabra, A., Liu, X., Mohapatra, P., & Shafiq, Z. (2023). Auditing YouTube’s recommendation system for ideologically congenial, extreme, and problematic recommendations. *Proceedings of the National Academy of Sciences, 120*(50), e2213020120. https://doi.org/10.1073/pnas.2213020120
-  - Park, M., Yu, C., & Macy, M. (2023). Fighting bias with bias: How same-race endorsements reduce racial discrimination on Airbnb. *Science Advances, 9*(6), eadd2315. https://doi.org/10.1126/sciadv.add2315
-  - Robertson, R. E., Green, J., Ruck, D. J., Ognyanova, K., Wilson, C., & Lazer, D. (2023). Users choose to engage with more partisan news than they are exposed to on Google Search. *Nature, 618*(7964), 342–348. https://doi.org/10.1038/s41586-023-06078-5
-  - Ohme, J., Araujo, T., Boeschoten, L., Freelon, D., Ram, N., Reeves, B. B., & Robinson, T. N. (2024). Digital trace data collection for social media effects research: APIs, data donation, and (screen) tracking. *Communication Methods and Measures, 18*(2), 124–141. https://doi.org/10.1080/19312458.2023.2181319
-  - Clemm Von Hohenberg, B., Stier, S., Cardenal, A. S., Guess, A. M., Menchen-Trevino, E., & Wojcieszak, M. (2024). Analysis of web browsing data: A guide. *Social Science Computer Review, 42*(6), 1479–1504. https://doi.org/10.1177/08944393241227868
-
-### Day 5 Afternoon
-
-- **Lab: YouTube API, Scraping**
-
-### Day 6 Morning
-
-- **[Yingdan Lu](https://yingdanlu.com) Guest Lecture with Catered Lunch**
-- **Reading**
-  - Peng, Y., Wen, T. J., & Yang, J. (2024). A computer vision methodology to predict brand personality from image features. *Journal of Advertising, 53*(4), 626–638. https://doi.org/10.1080/00913367.2023.2250842
-  - Gebru, T., Krause, J., Wang, Y., Chen, D., Deng, J., Aiden, E. L., & Fei-Fei, L. (2017). Using deep learning and Google Street View to estimate the demographic makeup of neighborhoods across the United States. *Proceedings of the National Academy of Sciences, 114*(50), 13108–13113. https://doi.org/10.1073/pnas.1700035114
-  - Guilbeault, D., Delecourt, S., Hull, T., Desikan, B. S., Chu, M., & Nadler, E. (2024). Online images amplify gender bias. *Nature, 626*(8001), 1049–1055. https://doi.org/10.1038/s41586-024-07068-x
-  - Adukia, A., Eble, A., Harrison, E., Runesha, H. B., & Szasz, T. (2023). What we teach about race and gender: Representation in images and text of children’s books. *The Quarterly Journal of Economics, 138*(4), 2225–2285. https://doi.org/10.1093/qje/qjad028
-  - Negro, G., Kovács, B., & Carroll, G. R. (2022). What’s next? Artists’ music after Grammy awards. *American Sociological Review, 87*(4), 644–674. https://doi.org/10.1177/00031224221103257
-  - Lukito, J., Greenfield, J., Yang, Y., Dahlke, R., Brown, M. A., Lewis, R., & Chen, B. (2024). Audio-as-data tools: Replicating computational data processing. *Media and Communication, 12*, 7851. https://doi.org/10.17645/mac.7851
-  - Dietrich, B. J., Hayes, M., & O’Brien, D. Z. (2019). Pitch perfect: Vocal pitch and the emotional intensity of congressional speech. *American Political Science Review, 113*(4), 941–962. https://doi.org/10.1017/S0003055419000467
-
-### Day 6 Afternoon
-
-- **Lab: Images/Videos/Audio**
-
-### Day 7 Morning
-
-- **Seminar: Looking Ahead: Computational Storytelling and the DEMM (Description-Experimentation-Mediator-Moderator) Framework, Methodological Triangulation, and Social Good**
-- **Reading**
-  - **Computational Storytelling and the DEMM Framework**
-    - Watts, D. J. (2017). Should social science be more solution-oriented? *Nature Human Behaviour, 1*(1), 0015. https://doi.org/10.1038/s41562-016-0015
-    - Yuan, Y., Liu, T. X., Tan, C., Chen, Q., Pentland, A. S., & Tang, J. (2024). Gift contagion in online groups: Evidence from virtual red packets. *Management Science, 70*(7), 4465–4479. https://doi.org/10.1287/mnsc.2023.4906
-    - Lee, J. K. (2021). Emotional expressions and brand status. *Journal of Marketing Research, 58*(6), 1178–1196. https://doi.org/10.1177/00222437211037340
-    - Barari, S. (2024). Political speech from corporate America: Sparse, mostly for Democrats, and somewhat representative. *Journal of Quantitative Description: Digital Media, 4*. https://doi.org/10.51685/jqd.2024.icwsm.5
-  - **Methodological Triangulation**
-    - Nelson, L. K. (2020). Computational grounded theory: A methodological framework. *Sociological Methods & Research, 49*(1), 3–42. https://doi.org/10.1177/0049124117729703
-    - Ophir, Y., Walter, D., & Marchant, E. R. (2020). A collaborative way of knowing: Bridging computational communication research and grounded theory ethnography. *Journal of Communication, 70*(3), 447–472. https://doi.org/10.1093/joc/jqaa013
-  - **Social Good**
-    - Yang, T., Ticona, J., & Lelkes, Y. (2021). Policing the digital divide: Institutional gate-keeping & criminalizing digital inclusion. *Journal of Communication, 71*(4), 572–597. https://doi.org/10.1093/joc/jqab019
-    - Wang, Y., Qin, M. S., Luo, X., & Kou, Y. (Eric). (2022). Frontiers: How support for black lives matter impacts consumer responses on social media. *Marketing Science, 41*(6), 1029–1044. https://doi.org/10.1287/mksc.2022.1372
-
-### Day 7 Afternoon
-
-- **Seminar: LLM**
+- **Morning**
+  - **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
   - **Reading**
+    - Park, P. S., Blumenstock, J. E., & Macy, M. W. (2018). The strength of long-range ties in population-scale social networks. *Science, 362*(6421), 1410–1413. https://doi.org/10.1126/science.aau9735
+    - Schlosser, F., Maier, B. F., Jack, O., Hinrichs, D., Zachariae, A., & Brockmann, D. (2020). COVID-19 lockdown induces disease-mitigating structural changes in mobility networks. *Proceedings of the National Academy of Sciences, 117*(52), 32883–32890. https://doi.org/10.1073/pnas.2012326117
+    - Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science, 359*(6380), 1146–1151. https://doi.org/10.1126/science.aap9559
+    - González-Bailón, S., Lazer, D., Barberá, P., Zhang, M., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A. M., Iyengar, S., Kim, Y. M., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C. V., Settle, J., Thorson, E., … Tucker, J. A. (2023). Asymmetric ideological segregation in exposure to political news on Facebook. *Science, 381*(6656), 392–398. https://doi.org/10.1126/science.ade7138
+    - Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the social network and the evolution of the influence of ancient Chinese poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182
+    - Zhou, A., & Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. *Social Media + Society, 7*(3), 205630512110475. https://doi.org/10.1177/20563051211047545
+- **Afternoon**
+  - **Lab - Networks:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
+
+### Day 5 - The Web, Computational Infrastructure, and Public Datasets
+
+- **Morning**
+  - **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.md
+  - **Reading**
+    - Haroon, M., Wojcieszak, M., Chhabra, A., Liu, X., Mohapatra, P., & Shafiq, Z. (2023). Auditing YouTube’s recommendation system for ideologically congenial, extreme, and problematic recommendations. *Proceedings of the National Academy of Sciences, 120*(50), e2213020120. https://doi.org/10.1073/pnas.2213020120
+    - Park, M., Yu, C., & Macy, M. (2023). Fighting bias with bias: How same-race endorsements reduce racial discrimination on Airbnb. *Science Advances, 9*(6), eadd2315. https://doi.org/10.1126/sciadv.add2315
+    - Robertson, R. E., Green, J., Ruck, D. J., Ognyanova, K., Wilson, C., & Lazer, D. (2023). Users choose to engage with more partisan news than they are exposed to on Google Search. *Nature, 618*(7964), 342–348. https://doi.org/10.1038/s41586-023-06078-5
+    - Ohme, J., Araujo, T., Boeschoten, L., Freelon, D., Ram, N., Reeves, B. B., & Robinson, T. N. (2024). Digital trace data collection for social media effects research: APIs, data donation, and (screen) tracking. *Communication Methods and Measures, 18*(2), 124–141. https://doi.org/10.1080/19312458.2023.2181319
+    - Clemm Von Hohenberg, B., Stier, S., Cardenal, A. S., Guess, A. M., Menchen-Trevino, E., & Wojcieszak, M. (2024). Analysis of web browsing data: A guide. *Social Science Computer Review, 42*(6), 1479–1504. https://doi.org/10.1177/08944393241227868
+- **Afternoon**
+  - **Lab - YouTube, Reddit, and Web Scraping:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.md
+
+### Day 6 - Image/Audio/Video
+
+- **Morning**
+  - **[Yingdan Lu](https://yingdanlu.com) Guest Lecture with Catered Lunch**
+  - **Reading**
+    - Peng, Y., Wen, T. J., & Yang, J. (2024). A computer vision methodology to predict brand personality from image features. *Journal of Advertising, 53*(4), 626–638. https://doi.org/10.1080/00913367.2023.2250842
+    - Gebru, T., Krause, J., Wang, Y., Chen, D., Deng, J., Aiden, E. L., & Fei-Fei, L. (2017). Using deep learning and Google Street View to estimate the demographic makeup of neighborhoods across the United States. *Proceedings of the National Academy of Sciences, 114*(50), 13108–13113. https://doi.org/10.1073/pnas.1700035114
+    - Guilbeault, D., Delecourt, S., Hull, T., Desikan, B. S., Chu, M., & Nadler, E. (2024). Online images amplify gender bias. *Nature, 626*(8001), 1049–1055. https://doi.org/10.1038/s41586-024-07068-x
+    - Adukia, A., Eble, A., Harrison, E., Runesha, H. B., & Szasz, T. (2023). What we teach about race and gender: Representation in images and text of children’s books. *The Quarterly Journal of Economics, 138*(4), 2225–2285. https://doi.org/10.1093/qje/qjad028
+    - Negro, G., Kovács, B., & Carroll, G. R. (2022). What’s next? Artists’ music after Grammy awards. *American Sociological Review, 87*(4), 644–674. https://doi.org/10.1177/00031224221103257
+    - Lukito, J., Greenfield, J., Yang, Y., Dahlke, R., Brown, M. A., Lewis, R., & Chen, B. (2024). Audio-as-data tools: Replicating computational data processing. *Media and Communication, 12*, 7851. https://doi.org/10.17645/mac.7851
+    - Dietrich, B. J., Hayes, M., & O’Brien, D. Z. (2019). Pitch perfect: Vocal pitch and the emotional intensity of congressional speech. *American Political Science Review, 113*(4), 941–962. https://doi.org/10.1017/S0003055419000467
+- **Afternoon**
+  - **Lab - Image/Audio/Video:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day6/Day6.md
+
+### Day 7 - Looking Ahead and LLM
+
+- **Morning**
+  - **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.md
+  - **Reading**
+    - **Computational Storytelling and the DEMM (Description-Experimentation-Mediator-Moderator) Framework**
+      - Watts, D. J. (2017). Should social science be more solution-oriented? *Nature Human Behaviour, 1*(1), 0015. https://doi.org/10.1038/s41562-016-0015
+      - Yuan, Y., Liu, T. X., Tan, C., Chen, Q., Pentland, A. S., & Tang, J. (2024). Gift contagion in online groups: Evidence from virtual red packets. *Management Science, 70*(7), 4465–4479. https://doi.org/10.1287/mnsc.2023.4906
+      - Lee, J. K. (2021). Emotional expressions and brand status. *Journal of Marketing Research, 58*(6), 1178–1196. https://doi.org/10.1177/00222437211037340
+      - Barari, S. (2024). Political speech from corporate America: Sparse, mostly for Democrats, and somewhat representative. *Journal of Quantitative Description: Digital Media, 4*. https://doi.org/10.51685/jqd.2024.icwsm.5
+    - **Methodological Triangulation**
+      - Nelson, L. K. (2020). Computational grounded theory: A methodological framework. *Sociological Methods & Research, 49*(1), 3–42. https://doi.org/10.1177/0049124117729703
+      - Ophir, Y., Walter, D., & Marchant, E. R. (2020). A collaborative way of knowing: Bridging computational communication research and grounded theory ethnography. *Journal of Communication, 70*(3), 447–472. https://doi.org/10.1093/joc/jqaa013
+    - **Social Good**
+      - Yang, T., Ticona, J., & Lelkes, Y. (2021). Policing the digital divide: Institutional gate-keeping & criminalizing digital inclusion. *Journal of Communication, 71*(4), 572–597. https://doi.org/10.1093/joc/jqab019
+      - Wang, Y., Qin, M. S., Luo, X., & Kou, Y. (Eric). (2022). Frontiers: How support for black lives matter impacts consumer responses on social media. *Marketing Science, 41*(6), 1029–1044. https://doi.org/10.1287/mksc.2022.1372
+- **Afternoon**
+  - **Seminar and Lab - LLM:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.md
     - Lee, T. B., & Trott, S. (2023, July 27). Large language models, explained with a minimum of math and jargon. *Understanding AI*. https://www.understandingai.org/p/large-language-models-explained-with
     - Argyle, L. P., Bail, C. A., Busby, E. C., Gubler, J. R., Howe, T., Rytting, C., Sorensen, T., & Wingate, D. (2023). Leveraging AI for democratic discourse: Chat interventions can improve online political conversations at scale. *Proceedings of the National Academy of Sciences, 120*(41), e2311627120. https://doi.org/10.1073/pnas.2311627120
     - Park, J. S., O’Brien, J., Cai, C. J., Morris, M. R., Liang, P., & Bernstein, M. S. (2023). Generative agents: Interactive simulacra of human behavior. *Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology*, 1–22. https://doi.org/10.1145/3586183.3606763
     - Ashokkumar, A., Hewitt, L., Ghezae, I., & Willer, R. (2024). Predicting results of social science experiments using large language models. https://docsend.com/view/ity6yf2dansesucf
-- **Lab: LLM**
 
 ## Additional Resources
 
@@ -155,6 +142,8 @@ To keep the workshop content fresh, assigned readings are mostly very-recent pub
 - Mitts, T. (2019). From isolation to radicalization: Anti-muslim hostility and support for ISIS in the West. *American Political Science Review, 113*(1), 173–194. https://doi.org/10.1017/S0003055418000618
 - Eichstaedt, J. C., Schwartz, H. A., Kern, M. L., Park, G., Labarthe, D. R., Merchant, R. M., Jha, S., Agrawal, M., Dziurzynski, L. A., Sap, M., Weeg, C., Larson, E. E., Ungar, L. H., & Seligman, M. E. P. (2015). Psychological language on Twitter predicts county-level heart disease mortality. *Psychological Science, 26*(2), 159–169. https://doi.org/10.1177/0956797614557867
 - Barberá, P., Casas, A., Nagler, J., Egan, P. J., Bonneau, R., Jost, J. T., & Tucker, J. A. (2019). Who leads? Who follows? Measuring issue attention and agenda setting by legislators and the mass public using social media data. *American Political Science Review, 113*(4), 883–901. https://doi.org/10.1017/S0003055419000352
+
+### Day 3: TBD
 
 ### Day 4: Networks
 
@@ -191,7 +180,7 @@ To keep the workshop content fresh, assigned readings are mostly very-recent pub
 - Joo, J., & Steinert-Threlkeld, Z. C. (2022). Image as data: Automated content analysis for visual presentations of political actors and events. *Computational Communication Research, 4*(1). https://doi.org/10.5117/CCR2022.1.001.JOO
 - Stephens, K. K., Waller, M. J., & Sohrab, S. G. (2019). Over-emoting and perceptions of sincerity: Effects of nuanced displays of emotions and chosen words on credibility perceptions during a crisis. *Public Relations Review, 45*(5), 101841. https://doi.org/10.1016/j.pubrev.2019.101841
 
-### Day 7: Looking Ahead
+### Day 7: Looking Ahead and LLM
 
 - Bail, C. A. (2016). Combining natural language processing and network analysis to examine how advocacy organizations stimulate conversation on social media. *Proceedings of the National Academy of Sciences, 113*(42), 11823–11828. https://doi.org/10.1073/pnas.1607151113
 - Ludwig, J., & Mullainathan, S. (2024). Machine learning as a tool for hypothesis generation. *The Quarterly Journal of Economics, 139*(2), 751–827. https://doi.org/10.1093/qje/qjad055
