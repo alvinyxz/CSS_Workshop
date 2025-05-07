@@ -147,6 +147,7 @@ To keep the workshop content fresh, assigned readings are mostly very-recent pub
 ### Day 2: Text
 
 - Garg, N., Schiebinger, L., Jurafsky, D., & Zou, J. (2018). Word embeddings quantify 100 years of gender and ethnic stereotypes. *Proceedings of the National Academy of Sciences, 115*(16), E3635–E3644. https://doi.org/10.1073/pnas.1720347115
+- Li, K., Mai, F., Shen, R., & Yan, X. (2021). Measuring corporate culture using machine learning. *The Review of Financial Studies, 34*(7), 3265–3315. https://doi.org/10.1093/rfs/hhaa079
 - Kozlowski, A. C., Taddy, M., & Evans, J. A. (2019). The geometry of culture: Analyzing the meanings of class through word embeddings. *American Sociological Review, 84*(5), 905–949. https://doi.org/10.1177/0003122419877135
 - Barberá, P., Boydstun, A. E., Linn, S., McMahon, R., & Nagler, J. (2021). Automated text classification of news articles: A practical guide. *Political Analysis, 29*(1), 19–42. https://doi.org/10.1017/pan.2020.8
 - DiMaggio, P. (2015). Adapting computational text analysis to social science (and vice versa). *Big Data & Society, 2*(2), 2053951715602908. https://doi.org/10.1177/2053951715602908
@@ -168,16 +169,18 @@ To keep the workshop content fresh, assigned readings are mostly very-recent pub
 - Bearman, P. S., Moody, J., & Stovel, K. (2004). Chains of affection: The structure of adolescent romantic and sexual networks. *American Journal of Sociology, 110*(1), 44–91. https://doi.org/10.1086/386272
 - DellaPosta, D., Shi, Y., & Macy, M. (2015). Why do liberals drink lattes? *American Journal of Sociology, 120*(5), 1473–1511. https://doi.org/10.1086/681254
 
-### Day 4: Web, Computational Infrastructure, and Public Datasets
+### Day 5: Web, Computational Infrastructure, and Public Datasets
 
 - Guess, A. M., Nyhan, B., & Reifler, J. (2020). Exposure to untrustworthy websites in the 2016 US election. *Nature Human Behaviour, 4*(5), 472–480. https://doi.org/10.1038/s41562-020-0833-x
 - King, G., Pan, J., & Roberts, M. E. (2013). How censorship in China allows government criticism but silences collective expression. *American Political Science Review, 107*(2), 326–343. https://doi.org/10.1017/S0003055413000014
+- Yang, T., & Peng, Y. (2022). The importance of trending topics in the gatekeeping of social media news engagement: A natural experiment on Weibo. *Communication Research, 49*(7), 994–1015. https://doi.org/10.1177/0093650220933729
 - Freelon, D. (2018). Computational research in the post-API age. *Political Communication, 35*(4), 665–668. https://doi.org/10.1080/10584609.2018.1477506
 
 ### Day 6: Images/Videos/Audio
 
 - Kim, S. J., Villanueva, I. I., & Chen, K. (2024). Going beyond affective polarization: How emotions and identities are used in anti-vaccination TikTok videos. *Political Communication, 41*(4), 588–607. https://doi.org/10.1080/10584609.2023.2243852
 - Peng, Y. (2018). Same candidates, different faces: Uncovering media bias in visual portrayals of presidential candidates with computer vision. *Journal of Communication, 68*(5), 920–941. https://doi.org/10.1093/joc/jqy041
+- Zhang, H., & Peng, Y. (2024). Image clustering: An unsupervised approach to categorize visual data in social science research. *Sociological Methods & Research, 53*(3), 1534–1587. https://doi.org/10.1177/00491241221082603
 - Askin, N., & Mauskapf, M. (2017). What makes popular culture popular? Product features and optimal differentiation in music. *American Sociological Review, 82*(5), 910–944. https://doi.org/10.1177/0003122417728662
 - Jean, N., Burke, M., Xie, M., Davis, W. M., Lobell, D. B., & Ermon, S. (2016). Combining satellite imagery and machine learning to predict poverty. *Science, 353*(6301), 790–794. https://doi.org/10.1126/science.aaf7894
 - Joo, J., & Steinert-Threlkeld, Z. C. (2022). Image as data: Automated content analysis for visual presentations of political actors and events. *Computational Communication Research, 4*(1). https://doi.org/10.5117/CCR2022.1.001.JOO

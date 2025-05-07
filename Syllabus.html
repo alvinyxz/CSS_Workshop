@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Syllabus</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="syllabus">Syllabus</h1>
+<ul>
+<li><strong>Date:</strong> June 2–6 and June 9–10</li>
+<li><strong>Time:</strong> Every day, 9:00 AM–12:00 PM and 1:00 PM–4:00 PM; Catered Lunch on Day 1 and Day 6 after guest lectures</li>
+<li><strong>Location:</strong> In person, Room 32 (basement), Murphy Hall, UMN Twin Cities</li>
+</ul>
+<p>Welcome to the inaugural Computational Social Science (CSS) Workshop, hosted by the College of Liberal Arts (CLA) Data Science Initiative at the University of Minnesota.</p>
+<p>Over the course of seven days, we will explore various topics and methodologies in computational social science, as well as discuss classic readings and recent advances. We will also engage in hands-on activities and collaborative projects to enrich our learning experience.</p>
+<p>All learning materials, including the syllabus, readings, sample data, and coding scripts, will be hosted on this GitHub page: <a href="https://z.umn.edu/CSS_Workshop">https://z.umn.edu/CSS_Workshop</a> As content may evolve during the week, I encourage you to check the page regularly for the most current information.</p>
+<p>The GitHub page is organized into eight folders (Day 0 through Day 7), each corresponding to a workshop day, with Day 0 providing start-up information that you need to complete before starting the workshop. In each folder, you will find a corresponding &quot;.md&quot; file that introduces the class content and serves as the guide for that day's material.</p>
+<h2 id="schedule">Schedule</h2>
+<h3 id="day-0">Day 0</h3>
+<ul>
+<li><strong>Software Set-Up</strong></li>
+<li>Readings
+<ul>
+<li>Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, A.-L., Brewer, D., Christakis, N., Contractor, N., Fowler, J., Gutmann, M., Jebara, T., King, G., Macy, M., Roy, D., &amp; Van Alstyne, M. (2009). Computational social science. <em>Science, 323</em>(5915), 721–723. <a href="https://doi.org/10.1126/science.1167742">https://doi.org/10.1126/science.1167742</a></li>
+<li>Lazer, D., Pentland, A., Watts, D. J., Aral, S., Contractor, N., Freelon, D., Gonzalez-Bailon, S., King, G., Nelson, A., Salganik, J., Strohmaier, M., Vespignani, A., &amp; Wagner, C. (2020). Computational social science: Obstacles and opportunities. <em>Science, 369</em>(6507), 1060–1062. <a href="https://doi.org/10.1126/science.aaz8170">https://doi.org/10.1126/science.aaz8170</a></li>
+<li>Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., &amp; Radford, J. (2021). Meaningful measures of human society in the twenty-first century. <em>Nature, 595</em>(7866), 189–196. <a href="https://doi.org/10.1038/s41586-021-03660-7">https://doi.org/10.1038/s41586-021-03660-7</a></li>
+<li>Hofman, J. M., Watts, D. J., Athey, S., Garip, F., Griffiths, T. L., Kleinberg, J., Margetts, H., Mullainathan, S., Salganik, M. J., Vazire, S., Vespignani, A., &amp; Yarkoni, T. (2021). Integrating explanation and prediction in computational social science. <em>Nature, 595</em>(7866), 181–188. <a href="https://doi.org/10.1038/s41586-021-03659-0">https://doi.org/10.1038/s41586-021-03659-0</a></li>
+<li>Wallach, H. (2018). Computational social science ≠ computer science + social data. <em>Communications of the ACM, 61</em>(3), 42–44. <a href="https://doi.org/10.1145/3132698">https://doi.org/10.1145/3132698</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-1-morning">Day 1 Morning</h3>
+<ul>
+<li><strong><a href="https://solomonmg.github.io/">Solomon Messing</a> Guest Lecture with Catered Lunch</strong></li>
+<li><strong>Readings</strong>
+<ul>
+<li>Aggarwal, M., Allen, J., Coppock, A., Frankowski, D., Messing, S., Zhang, K., Barnes, J., Beasley, A., Hantman, H., &amp; Zheng, S. (2023). A 2 million-person, campaign-wide field experiment shows how digital advertising affects voter turnout. <em>Nature Human Behaviour, 7</em>(3), 332–341. <a href="https://doi.org/10.1038/s41562-022-01487-4">https://doi.org/10.1038/s41562-022-01487-4</a></li>
+<li>TBD</li>
+</ul>
+</li>
+</ul>
+<h3 id="day-1-afternoon">Day 1 Afternoon</h3>
+<ul>
+<li><strong>Seminar: CSS Overview</strong></li>
+<li><strong>Lab: Get Started with R/Python</strong></li>
+</ul>
+<h3 id="day-2-morning">Day 2 Morning</h3>
+<ul>
+<li><strong>Seminar: Text</strong></li>
+<li><strong>Readings</strong>
+<ul>
+<li>Wang, S.-Y. N., &amp; Inbar, Y. (2021). Moral-language use by U.S. political elites. <em>Psychological Science, 32</em>(1), 14–26. <a href="https://doi.org/10.1177/0956797620960397">https://doi.org/10.1177/0956797620960397</a></li>
+<li>Jaidka, K., Zhou, A., &amp; Lelkes, Y. (2019). Brevity is the soul of Twitter: The constraint affordance and political discussion. <em>Journal of Communication, 69</em>(4), 345–372. <a href="https://doi.org/10.1093/joc/jqz023">https://doi.org/10.1093/joc/jqz023</a></li>
+<li>Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. <em>Sociological Methods &amp; Research, 51</em>(4), 1634–1680. <a href="https://doi.org/10.1177/00491241221122528">https://doi.org/10.1177/00491241221122528</a></li>
+<li>Toubia, O., Berger, J., &amp; Eliashberg, J. (2021). How quantifying the shape of stories predicts their success. <em>Proceedings of the National Academy of Sciences, 118</em>(26), e2011695118. <a href="https://doi.org/10.1073/pnas.2011695118">https://doi.org/10.1073/pnas.2011695118</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-2-afternoon">Day 2 Afternoon</h3>
+<ul>
+<li><strong>Lab: Text</strong>
+<ul>
+<li>LIWC: Tausczik, Y. R., &amp; Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. <em>Journal of Language and Social Psychology, 29</em>(1), 24–54. <a href="https://doi.org/10.1177/0261927X09351676">https://doi.org/10.1177/0261927X09351676</a></li>
+<li>Sentiment</li>
+<li>Topic Modeling</li>
+</ul>
+</li>
+</ul>
+<h3 id="day-3-morning">Day 3 Morning</h3>
+<p>TBD</p>
+<h3 id="day-3-afternoon">Day 3 Afternoon</h3>
+<p>TBD</p>
+<h3 id="day-4-morning">Day 4 Morning</h3>
+<ul>
+<li><strong>Seminar: Networks</strong></li>
+<li><strong>Reading</strong>
+<ul>
+<li>Park, P. S., Blumenstock, J. E., &amp; Macy, M. W. (2018). The strength of long-range ties in population-scale social networks. <em>Science, 362</em>(6421), 1410–1413. <a href="https://doi.org/10.1126/science.aau9735">https://doi.org/10.1126/science.aau9735</a></li>
+<li>Schlosser, F., Maier, B. F., Jack, O., Hinrichs, D., Zachariae, A., &amp; Brockmann, D. (2020). COVID-19 lockdown induces disease-mitigating structural changes in mobility networks. <em>Proceedings of the National Academy of Sciences, 117</em>(52), 32883–32890. <a href="https://doi.org/10.1073/pnas.2012326117">https://doi.org/10.1073/pnas.2012326117</a></li>
+<li>Vosoughi, S., Roy, D., &amp; Aral, S. (2018). The spread of true and false news online. <em>Science, 359</em>(6380), 1146–1151. <a href="https://doi.org/10.1126/science.aap9559">https://doi.org/10.1126/science.aap9559</a></li>
+<li>González-Bailón, S., Lazer, D., Barberá, P., Zhang, M., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A. M., Iyengar, S., Kim, Y. M., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C. V., Settle, J., Thorson, E., … Tucker, J. A. (2023). Asymmetric ideological segregation in exposure to political news on Facebook. <em>Science, 381</em>(6656), 392–398. <a href="https://doi.org/10.1126/science.ade7138">https://doi.org/10.1126/science.ade7138</a></li>
+<li>Zhao, J., Wei, Y., &amp; Wu, B. (2022). Analysis of the Social Network and the Evolution of the Influence of Ancient Chinese Poets. <em>Social Science Computer Review, 40</em>(4), 1014–1034. <a href="https://doi.org/10.1177/08944393211028182">https://doi.org/10.1177/08944393211028182</a></li>
+<li>Zhou, A., &amp; Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. <em>Social Media + Society, 7</em>(3), 205630512110475. <a href="https://doi.org/10.1177/20563051211047545">https://doi.org/10.1177/20563051211047545</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-4-afternoon">Day 4 Afternoon</h3>
+<ul>
+<li><strong>Lab: Networks</strong></li>
+</ul>
+<h3 id="day-5-morning">Day 5 Morning</h3>
+<ul>
+<li><strong>Seminar: Web, Computational Infrastructure, and Public Datasets</strong></li>
+<li><strong>Reading</strong>
+<ul>
+<li>Haroon, M., Wojcieszak, M., Chhabra, A., Liu, X., Mohapatra, P., &amp; Shafiq, Z. (2023). Auditing YouTube’s recommendation system for ideologically congenial, extreme, and problematic recommendations. <em>Proceedings of the National Academy of Sciences, 120</em>(50), e2213020120. <a href="https://doi.org/10.1073/pnas.2213020120">https://doi.org/10.1073/pnas.2213020120</a></li>
+<li>Park, M., Yu, C., &amp; Macy, M. (2023). Fighting bias with bias: How same-race endorsements reduce racial discrimination on Airbnb. <em>Science Advances, 9</em>(6), eadd2315. <a href="https://doi.org/10.1126/sciadv.add2315">https://doi.org/10.1126/sciadv.add2315</a></li>
+<li>Robertson, R. E., Green, J., Ruck, D. J., Ognyanova, K., Wilson, C., &amp; Lazer, D. (2023). Users choose to engage with more partisan news than they are exposed to on Google Search. <em>Nature, 618</em>(7964), 342–348. <a href="https://doi.org/10.1038/s41586-023-06078-5">https://doi.org/10.1038/s41586-023-06078-5</a></li>
+<li>Ohme, J., Araujo, T., Boeschoten, L., Freelon, D., Ram, N., Reeves, B. B., &amp; Robinson, T. N. (2024). Digital trace data collection for social media effects research: APIs, data donation, and (screen) tracking. <em>Communication Methods and Measures, 18</em>(2), 124–141. <a href="https://doi.org/10.1080/19312458.2023.2181319">https://doi.org/10.1080/19312458.2023.2181319</a></li>
+<li>Clemm Von Hohenberg, B., Stier, S., Cardenal, A. S., Guess, A. M., Menchen-Trevino, E., &amp; Wojcieszak, M. (2024). Analysis of web browsing data: A guide. <em>Social Science Computer Review, 42</em>(6), 1479–1504. <a href="https://doi.org/10.1177/08944393241227868">https://doi.org/10.1177/08944393241227868</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-5-afternoon">Day 5 Afternoon</h3>
+<ul>
+<li><strong>Lab: YouTube API, Scraping</strong></li>
+</ul>
+<h3 id="day-6-morning">Day 6 Morning</h3>
+<ul>
+<li><strong><a href="https://yingdanlu.com">Yingdan Lu</a> Guest Lecture with Catered Lunch</strong></li>
+<li><strong>Reading</strong>
+<ul>
+<li>Peng, Y., Wen, T. J., &amp; Yang, J. (2024). A computer vision methodology to predict brand personality from image features. <em>Journal of Advertising, 53</em>(4), 626–638. <a href="https://doi.org/10.1080/00913367.2023.2250842">https://doi.org/10.1080/00913367.2023.2250842</a></li>
+<li>Gebru, T., Krause, J., Wang, Y., Chen, D., Deng, J., Aiden, E. L., &amp; Fei-Fei, L. (2017). Using deep learning and Google Street View to estimate the demographic makeup of neighborhoods across the United States. <em>Proceedings of the National Academy of Sciences, 114</em>(50), 13108–13113. <a href="https://doi.org/10.1073/pnas.1700035114">https://doi.org/10.1073/pnas.1700035114</a></li>
+<li>Guilbeault, D., Delecourt, S., Hull, T., Desikan, B. S., Chu, M., &amp; Nadler, E. (2024). Online images amplify gender bias. <em>Nature, 626</em>(8001), 1049–1055. <a href="https://doi.org/10.1038/s41586-024-07068-x">https://doi.org/10.1038/s41586-024-07068-x</a></li>
+<li>Adukia, A., Eble, A., Harrison, E., Runesha, H. B., &amp; Szasz, T. (2023). What We Teach About Race and Gender: Representation in Images and Text of Children’s Books. <em>The Quarterly Journal of Economics, 138</em>(4), 2225–2285. <a href="https://doi.org/10.1093/qje/qjad028">https://doi.org/10.1093/qje/qjad028</a></li>
+<li>Negro, G., Kovács, B., &amp; Carroll, G. R. (2022). What’s next? Artists’ music after Grammy awards. <em>American Sociological Review, 87</em>(4), 644–674. <a href="https://doi.org/10.1177/00031224221103257">https://doi.org/10.1177/00031224221103257</a></li>
+<li>Lukito, J., Greenfield, J., Yang, Y., Dahlke, R., Brown, M. A., Lewis, R., &amp; Chen, B. (2024). Audio-as-data tools: Replicating computational data processing. <em>Media and Communication, 12</em>, 7851. <a href="https://doi.org/10.17645/mac.7851">https://doi.org/10.17645/mac.7851</a></li>
+<li>Dietrich, B. J., Hayes, M., &amp; O’Brien, D. Z. (2019). Pitch perfect: Vocal pitch and the emotional intensity of congressional speech. <em>American Political Science Review, 113</em>(4), 941–962. <a href="https://doi.org/10.1017/S0003055419000467">https://doi.org/10.1017/S0003055419000467</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="day-6-afternoon">Day 6 Afternoon</h3>
+<ul>
+<li><strong>Lab: Images/Videos/Audio</strong></li>
+</ul>
+<h3 id="day-7-morning">Day 7 Morning</h3>
+<ul>
+<li><strong>Seminar: Looking Ahead: Computational Storytelling and the DEMM (Description-Experimentation-Mediator-Moderator) Framework, Methodological Triangulation, and Social Good</strong></li>
+<li><strong>Reading</strong>
+<ul>
+<li><strong>Computational Storytelling and the DEMM Framework</strong>
+<ul>
+<li>Watts, D. J. (2017). Should social science be more solution-oriented? <em>Nature Human Behaviour, 1</em>(1), 0015. <a href="https://doi.org/10.1038/s41562-016-0015">https://doi.org/10.1038/s41562-016-0015</a></li>
+<li>Yuan, Y., Liu, T. X., Tan, C., Chen, Q., Pentland, A. S., &amp; Tang, J. (2024). Gift contagion in online groups: Evidence from virtual red packets. <em>Management Science, 70</em>(7), 4465–4479. <a href="https://doi.org/10.1287/mnsc.2023.4906">https://doi.org/10.1287/mnsc.2023.4906</a></li>
+<li>Lee, J. K. (2021). Emotional expressions and brand status. <em>Journal of Marketing Research, 58</em>(6), 1178–1196. <a href="https://doi.org/10.1177/00222437211037340">https://doi.org/10.1177/00222437211037340</a></li>
+<li>Barari, S. (2024). Political speech from corporate America: Sparse, mostly for Democrats, and somewhat representative. <em>Journal of Quantitative Description: Digital Media, 4</em>. <a href="https://doi.org/10.51685/jqd.2024.icwsm.5">https://doi.org/10.51685/jqd.2024.icwsm.5</a></li>
+</ul>
+</li>
+<li><strong>Methodological Triangulation</strong>
+<ul>
+<li>Nelson, L. K. (2020). Computational grounded theory: A methodological framework. <em>Sociological Methods &amp; Research, 49</em>(1), 3–42. <a href="https://doi.org/10.1177/0049124117729703">https://doi.org/10.1177/0049124117729703</a></li>
+<li>Ophir, Y., Walter, D., &amp; Marchant, E. R. (2020). A collaborative way of knowing: Bridging computational communication research and grounded theory ethnography. <em>Journal of Communication, 70</em>(3), 447–472. <a href="https://doi.org/10.1093/joc/jqaa013">https://doi.org/10.1093/joc/jqaa013</a></li>
+</ul>
+</li>
+<li><strong>Social Good</strong>
+<ul>
+<li>Yang, T., Ticona, J., &amp; Lelkes, Y. (2021). Policing the digital divide: Institutional gate-keeping &amp; criminalizing digital inclusion. <em>Journal of Communication, 71</em>(4), 572–597. <a href="https://doi.org/10.1093/joc/jqab019">https://doi.org/10.1093/joc/jqab019</a></li>
+<li>Wang, Y., Qin, M. S., Luo, X., &amp; Kou, Y. (Eric). (2022). Frontiers: How support for black lives matter impacts consumer responses on social media. <em>Marketing Science, 41</em>(6), 1029–1044. <a href="https://doi.org/10.1287/mksc.2022.1372">https://doi.org/10.1287/mksc.2022.1372</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="day-7-afternoon">Day 7 Afternoon</h3>
+<ul>
+<li><strong>Seminar: LLM</strong>
+<ul>
+<li><strong>Reading</strong>
+<ul>
+<li>Lee, T. B., &amp; Trott, S. (2023, July 27). Large language models, explained with a minimum of math and jargon. <em>Understanding AI</em>. <a href="https://www.understandingai.org/p/large-language-models-explained-with">https://www.understandingai.org/p/large-language-models-explained-with</a></li>
+<li>Argyle, L. P., Bail, C. A., Busby, E. C., Gubler, J. R., Howe, T., Rytting, C., Sorensen, T., &amp; Wingate, D. (2023). Leveraging AI for democratic discourse: Chat interventions can improve online political conversations at scale. <em>Proceedings of the National Academy of Sciences, 120</em>(41), e2311627120. <a href="https://doi.org/10.1073/pnas.2311627120">https://doi.org/10.1073/pnas.2311627120</a></li>
+<li>Park, J. S., O’Brien, J., Cai, C. J., Morris, M. R., Liang, P., &amp; Bernstein, M. S. (2023). Generative agents: Interactive simulacra of human behavior. <em>Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology</em>, 1–22. <a href="https://doi.org/10.1145/3586183.3606763">https://doi.org/10.1145/3586183.3606763</a></li>
+<li>Ashokkumar, A., Hewitt, L., Ghezae, I., &amp; Willer, R. (2024). Predicting results of social science experiments using large language models. <a href="https://docsend.com/view/ity6yf2dansesucf">https://docsend.com/view/ity6yf2dansesucf</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Lab: LLM</strong></li>
+</ul>
+<h2 id="additional-resources">Additional Resources</h2>
+<p>To keep the workshop content fresh, assigned readings are mostly very-recent publications. Below, I provide a list of supplementary materials and resources that may enhance your understanding of the topics covered in the workshop, many of which are considered classics in the field of computational social science.</p>
+<h3 id="day-1-css-overview">Day 1: CSS Overview</h3>
+<ul>
+<li>Salganik, M. J. (2018). Bit by bit: Social research in the digital age. Princeton University Press.</li>
+<li>Grimmer, J., Roberts, M. E., &amp; Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press.</li>
+<li>Llaudet, E., &amp; Imai, K. (2023). Data analysis for social science: A friendly and practical introduction. Princeton University Press.</li>
+<li>Pearl, J., &amp; Mackenzie, D. (2018). The book of why: The new science of cause and effect. Basic Books.</li>
+<li>Mohr, J., Bail, C. A., Frye, M., Lena, J. C., Lizardo, O., McDonnell, T. E., Mische, A., Tavory, I., &amp; Wherry, F. F. (2020). Measuring culture. Columbia University Press.</li>
+<li>Edelmann, A., Wolff, T., Montagne, D., &amp; Bail, C. A. (2020). Computational social science and sociology. <em>Annual Review of Sociology, 46</em>(1), 61–81. <a href="https://doi.org/10.1146/annurev-soc-121919-054621">https://doi.org/10.1146/annurev-soc-121919-054621</a></li>
+</ul>
+<h3 id="day-2-text">Day 2: Text</h3>
+<ul>
+<li>Garg, N., Schiebinger, L., Jurafsky, D., &amp; Zou, J. (2018). Word embeddings quantify 100 years of gender and ethnic stereotypes. <em>Proceedings of the National Academy of Sciences, 115</em>(16), E3635–E3644. <a href="https://doi.org/10.1073/pnas.1720347115">https://doi.org/10.1073/pnas.1720347115</a></li>
+<li>Li, K., Mai, F., Shen, R., &amp; Yan, X. (2021). Measuring corporate culture using machine learning. <em>The Review of Financial Studies, 34</em>(7), 3265–3315. <a href="https://doi.org/10.1093/rfs/hhaa079">https://doi.org/10.1093/rfs/hhaa079</a></li>
+<li>Kozlowski, A. C., Taddy, M., &amp; Evans, J. A. (2019). The geometry of culture: Analyzing the meanings of class through word embeddings. <em>American Sociological Review, 84</em>(5), 905–949. <a href="https://doi.org/10.1177/0003122419877135">https://doi.org/10.1177/0003122419877135</a></li>
+<li>Barberá, P., Boydstun, A. E., Linn, S., McMahon, R., &amp; Nagler, J. (2021). Automated text classification of news articles: A practical guide. <em>Political Analysis, 29</em>(1), 19–42. <a href="https://doi.org/10.1017/pan.2020.8">https://doi.org/10.1017/pan.2020.8</a></li>
+<li>DiMaggio, P. (2015). Adapting computational text analysis to social science (and vice versa). <em>Big Data &amp; Society, 2</em>(2), 2053951715602908. <a href="https://doi.org/10.1177/2053951715602908">https://doi.org/10.1177/2053951715602908</a></li>
+<li>Mitts, T. (2019). From isolation to radicalization: Anti-muslim hostility and support for ISIS in the West. <em>American Political Science Review, 113</em>(1), 173–194. <a href="https://doi.org/10.1017/S0003055418000618">https://doi.org/10.1017/S0003055418000618</a></li>
+<li>Eichstaedt, J. C., Schwartz, H. A., Kern, M. L., Park, G., Labarthe, D. R., Merchant, R. M., Jha, S., Agrawal, M., Dziurzynski, L. A., Sap, M., Weeg, C., Larson, E. E., Ungar, L. H., &amp; Seligman, M. E. P. (2015). Psychological language on Twitter predicts county-level heart disease mortality. <em>Psychological Science, 26</em>(2), 159–169. <a href="https://doi.org/10.1177/0956797614557867">https://doi.org/10.1177/0956797614557867</a></li>
+</ul>
+<h3 id="day-4-networks">Day 4: Networks</h3>
+<ul>
+<li>Barabási, A.-L., &amp; Albert, R. (1999). Emergence of scaling in random networks. <em>Science, 286</em>(5439), 509–512. <a href="https://doi.org/10.1126/science.286.5439.509">https://doi.org/10.1126/science.286.5439.509</a></li>
+<li>Watts, D. J., &amp; Strogatz, S. H. (1998). Collective dynamics of “small-world” networks. <em>Nature, 393</em>(6684), 440–442. <a href="https://doi.org/10.1038/30918">https://doi.org/10.1038/30918</a></li>
+<li>Granovetter, M. S. (1973). The strength of weak ties. <em>American Journal of Sociology, 78</em>(6), 1360–1380. <a href="https://doi.org/10.1086/225469">https://doi.org/10.1086/225469</a></li>
+<li>Rajkumar, K., Saint-Jacques, G., Bojinov, I., Brynjolfsson, E., &amp; Aral, S. (2022). A causal test of the strength of weak ties. <em>Science, 377</em>(6612), 1304–1310. <a href="https://doi.org/10.1126/science.abl4476">https://doi.org/10.1126/science.abl4476</a></li>
+<li>Centola, D., &amp; Macy, M. (2007). Complex contagions and the weakness of long ties. <em>American Journal of Sociology, 113</em>(3), 702–734. <a href="https://doi.org/10.1086/521848">https://doi.org/10.1086/521848</a></li>
+<li>Burt, R. S. (2004). Structural holes and good ideas. <em>American Journal of Sociology, 110</em>(2), 349–399. <a href="https://doi.org/10.1086/421787">https://doi.org/10.1086/421787</a></li>
+<li>Centola, D., Becker, J., Brackbill, D., &amp; Baronchelli, A. (2018). Experimental evidence for tipping points in social convention. <em>Science, 360</em>(6393), 1116–1119. <a href="https://doi.org/10.1126/science.aas8827">https://doi.org/10.1126/science.aas8827</a></li>
+<li>González-Bailón, S., &amp; Wang, N. (2016). Networked discontent: The anatomy of protest campaigns in social media. <em>Social Networks, 44</em>, 95–104. <a href="https://doi.org/10.1016/j.socnet.2015.07.003">https://doi.org/10.1016/j.socnet.2015.07.003</a></li>
+<li>Kolaczyk, E. D., &amp; Csárdi, G. (2020). Statistical analysis of network data with R. Springer.</li>
+<li>Lydon-Staley, D. M., Zhou, D., Blevins, A. S., Zurn, P., &amp; Bassett, D. S. (2021). Hunters, busybodies and the knowledge network building associated with deprivation curiosity. <em>Nature Human Behaviour, 5</em>(3), 327–336. <a href="https://doi.org/10.1038/s41562-020-00985-7">https://doi.org/10.1038/s41562-020-00985-7</a></li>
+<li>Bearman, P. S., Moody, J., &amp; Stovel, K. (2004). Chains of affection: The structure of adolescent romantic and sexual networks. <em>American Journal of Sociology, 110</em>(1), 44–91. <a href="https://doi.org/10.1086/386272">https://doi.org/10.1086/386272</a></li>
+<li>DellaPosta, D., Shi, Y., &amp; Macy, M. (2015). Why do liberals drink lattes? <em>American Journal of Sociology, 120</em>(5), 1473–1511. <a href="https://doi.org/10.1086/681254">https://doi.org/10.1086/681254</a></li>
+</ul>
+<h3 id="day-5-web-computational-infrastructure-and-public-datasets">Day 5: Web, Computational Infrastructure, and Public Datasets</h3>
+<ul>
+<li>Guess, A. M., Nyhan, B., &amp; Reifler, J. (2020). Exposure to untrustworthy websites in the 2016 US election. <em>Nature Human Behaviour, 4</em>(5), 472–480. <a href="https://doi.org/10.1038/s41562-020-0833-x">https://doi.org/10.1038/s41562-020-0833-x</a></li>
+<li>King, G., Pan, J., &amp; Roberts, M. E. (2013). How censorship in China allows government criticism but silences collective expression. <em>American Political Science Review, 107</em>(2), 326–343. <a href="https://doi.org/10.1017/S0003055413000014">https://doi.org/10.1017/S0003055413000014</a></li>
+<li>Yang, T., &amp; Peng, Y. (2022). The importance of trending topics in the gatekeeping of social media news engagement: A natural experiment on Weibo. <em>Communication Research, 49</em>(7), 994–1015. <a href="https://doi.org/10.1177/0093650220933729">https://doi.org/10.1177/0093650220933729</a></li>
+<li>Freelon, D. (2018). Computational research in the post-API age. <em>Political Communication, 35</em>(4), 665–668. <a href="https://doi.org/10.1080/10584609.2018.1477506">https://doi.org/10.1080/10584609.2018.1477506</a></li>
+</ul>
+<h3 id="day-6-imagesvideosaudio">Day 6: Images/Videos/Audio</h3>
+<ul>
+<li>Kim, S. J., Villanueva, I. I., &amp; Chen, K. (2024). Going beyond affective polarization: How emotions and identities are used in anti-vaccination TikTok videos. <em>Political Communication, 41</em>(4), 588–607. <a href="https://doi.org/10.1080/10584609.2023.2243852">https://doi.org/10.1080/10584609.2023.2243852</a></li>
+<li>Peng, Y. (2018). Same candidates, different faces: Uncovering media bias in visual portrayals of presidential candidates with computer vision. <em>Journal of Communication, 68</em>(5), 920–941. <a href="https://doi.org/10.1093/joc/jqy041">https://doi.org/10.1093/joc/jqy041</a></li>
+<li>Zhang, H., &amp; Peng, Y. (2024). Image clustering: An unsupervised approach to categorize visual data in social science research. <em>Sociological Methods &amp; Research, 53</em>(3), 1534–1587. <a href="https://doi.org/10.1177/00491241221082603">https://doi.org/10.1177/00491241221082603</a></li>
+<li>Askin, N., &amp; Mauskapf, M. (2017). What makes popular culture popular? Product features and optimal differentiation in music. <em>American Sociological Review, 82</em>(5), 910–944. <a href="https://doi.org/10.1177/0003122417728662">https://doi.org/10.1177/0003122417728662</a></li>
+<li>Jean, N., Burke, M., Xie, M., Davis, W. M., Lobell, D. B., &amp; Ermon, S. (2016). Combining satellite imagery and machine learning to predict poverty. <em>Science, 353</em>(6301), 790–794. <a href="https://doi.org/10.1126/science.aaf7894">https://doi.org/10.1126/science.aaf7894</a></li>
+<li>Joo, J., &amp; Steinert-Threlkeld, Z. C. (2022). Image as data: Automated content analysis for visual presentations of political actors and events. <em>Computational Communication Research, 4</em>(1). <a href="https://doi.org/10.5117/CCR2022.1.001.JOO">https://doi.org/10.5117/CCR2022.1.001.JOO</a></li>
+</ul>
+<h3 id="day-7-looking-ahead">Day 7: Looking Ahead</h3>
+<ul>
+<li>Bail, C. A. (2016). Combining natural language processing and network analysis to examine how advocacy organizations stimulate conversation on social media. <em>Proceedings of the National Academy of Sciences, 113</em>(42), 11823–11828. <a href="https://doi.org/10.1073/pnas.1607151113">https://doi.org/10.1073/pnas.1607151113</a></li>
+<li>Ludwig, J., &amp; Mullainathan, S. (2024). Machine learning as a tool for hypothesis generation. <em>The Quarterly Journal of Economics, 139</em>(2), 751–827. <a href="https://doi.org/10.1093/qje/qjad055">https://doi.org/10.1093/qje/qjad055</a></li>
+<li>Bail, C. A. (2024). Can generative AI improve social science? <em>Proceedings of the National Academy of Sciences, 121</em>(21), e2314021121. <a href="https://doi.org/10.1073/pnas.2314021121">https://doi.org/10.1073/pnas.2314021121</a></li>
+<li>Gilardi, F., Alizadeh, M., &amp; Kubli, M. (2023). ChatGPT outperforms crowd workers for text-annotation tasks. <em>Proceedings of the National Academy of Sciences, 120</em>(30), e2305016120. <a href="https://doi.org/10.1073/pnas.2305016120">https://doi.org/10.1073/pnas.2305016120</a></li>
+<li>Rathje, S., Mirea, D.-M., Sucholutsky, I., Marjieh, R., Robertson, C. E., &amp; Van Bavel, J. J. (2024). GPT is an effective tool for multilingual psychological text analysis. <em>Proceedings of the National Academy of Sciences, 121</em>(34), e2308950121. <a href="https://doi.org/10.1073/pnas.2308950121">https://doi.org/10.1073/pnas.2308950121</a></li>
+</ul>
+
+            
+            
+        </body>
+        </html>
