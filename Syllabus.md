@@ -17,7 +17,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 ### Day 0 - Software Set-Up
 
 - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day0/Day0.md
-- **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day0/Day0
+- **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day0
   - Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, A.-L., Brewer, D., Christakis, N., Contractor, N., Fowler, J., Gutmann, M., Jebara, T., King, G., Macy, M., Roy, D., & Van Alstyne, M. (2009). Computational social science. *Science, 323*(5915), 721–723. https://doi.org/10.1126/science.1167742
   - Lazer, D., Pentland, A., Watts, D. J., Aral, S., Contractor, N., Freelon, D., Gonzalez-Bailon, S., King, G., Nelson, A., Salganik, J., Strohmaier, M., Vespignani, A., & Wagner, C. (2020). Computational social science: Obstacles and opportunities. *Science, 369*(6507), 1060–1062. https://doi.org/10.1126/science.aaz8170
   - Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. *Nature, 595*(7866), 189–196. https://doi.org/10.1038/s41586-021-03660-7
@@ -37,8 +37,8 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 ### Day 2 - Text
 
 - **Morning**
-  - **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Day2.md
-  - **Readings**
+  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Day2.md
+  - **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2
     - Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. *Psychological Science, 32*(1), 14–26. https://doi.org/10.1177/0956797620960397
     - Jaidka, K., Zhou, A., & Lelkes, Y. (2019). Brevity is the soul of Twitter: The constraint affordance and political discussion. *Journal of Communication, 69*(4), 345–372. https://doi.org/10.1093/joc/jqz023
     - Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/00491241221122528
@@ -57,8 +57,8 @@ TBD
 ### Day 4 - Networks
 
 - **Morning**
-  - **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
-  - **Reading**
+  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
+  - **Reading:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4
     - Park, P. S., Blumenstock, J. E., & Macy, M. W. (2018). The strength of long-range ties in population-scale social networks. *Science, 362*(6421), 1410–1413. https://doi.org/10.1126/science.aau9735
     - Schlosser, F., Maier, B. F., Jack, O., Hinrichs, D., Zachariae, A., & Brockmann, D. (2020). COVID-19 lockdown induces disease-mitigating structural changes in mobility networks. *Proceedings of the National Academy of Sciences, 117*(52), 32883–32890. https://doi.org/10.1073/pnas.2012326117
     - Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science, 359*(6380), 1146–1151. https://doi.org/10.1126/science.aap9559
@@ -72,8 +72,8 @@ TBD
 ### Day 5 - The Web, Computational Infrastructure, and Public Datasets
 
 - **Morning**
-  - **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.md
-  - **Reading**
+  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.md
+  - **Reading:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5
     - Haroon, M., Wojcieszak, M., Chhabra, A., Liu, X., Mohapatra, P., & Shafiq, Z. (2023). Auditing YouTube’s recommendation system for ideologically congenial, extreme, and problematic recommendations. *Proceedings of the National Academy of Sciences, 120*(50), e2213020120. https://doi.org/10.1073/pnas.2213020120
     - Park, M., Yu, C., & Macy, M. (2023). Fighting bias with bias: How same-race endorsements reduce racial discrimination on Airbnb. *Science Advances, 9*(6), eadd2315. https://doi.org/10.1126/sciadv.add2315
     - Robertson, R. E., Green, J., Ruck, D. J., Ognyanova, K., Wilson, C., & Lazer, D. (2023). Users choose to engage with more partisan news than they are exposed to on Google Search. *Nature, 618*(7964), 342–348. https://doi.org/10.1038/s41586-023-06078-5
@@ -86,7 +86,7 @@ TBD
 
 - **Morning**
   - **[Yingdan Lu](https://yingdanlu.com) Guest Lecture with Catered Lunch**
-  - **Reading**
+  - **Reading:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day6
     - Peng, Y., Wen, T. J., & Yang, J. (2024). A computer vision methodology to predict brand personality from image features. *Journal of Advertising, 53*(4), 626–638. https://doi.org/10.1080/00913367.2023.2250842
     - Gebru, T., Krause, J., Wang, Y., Chen, D., Deng, J., Aiden, E. L., & Fei-Fei, L. (2017). Using deep learning and Google Street View to estimate the demographic makeup of neighborhoods across the United States. *Proceedings of the National Academy of Sciences, 114*(50), 13108–13113. https://doi.org/10.1073/pnas.1700035114
     - Guilbeault, D., Delecourt, S., Hull, T., Desikan, B. S., Chu, M., & Nadler, E. (2024). Online images amplify gender bias. *Nature, 626*(8001), 1049–1055. https://doi.org/10.1038/s41586-024-07068-x
@@ -100,8 +100,8 @@ TBD
 ### Day 7 - Looking Ahead and LLM
 
 - **Morning**
-  - **To-Do**: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.md
-  - **Reading**
+  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.md
+  - **Reading:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7
     - **Computational Storytelling and the DEMM (Description-Experimentation-Mediator-Moderator) Framework**
       - Watts, D. J. (2017). Should social science be more solution-oriented? *Nature Human Behaviour, 1*(1), 0015. https://doi.org/10.1038/s41562-016-0015
       - Yuan, Y., Liu, T. X., Tan, C., Chen, Q., Pentland, A. S., & Tang, J. (2024). Gift contagion in online groups: Evidence from virtual red packets. *Management Science, 70*(7), 4465–4479. https://doi.org/10.1287/mnsc.2023.4906
