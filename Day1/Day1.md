@@ -21,11 +21,11 @@ Dr. Josephine Lukito has a great installation guide for R and RStudio. Please fo
    ```
 5. Load the package in RStudio:
    ```r
-   library(praise)
+   library("praise")
    ```
 6. Run the following code in RStudio and get a random praise message:
    ```r
-   praise::praise()
+   praise()
    ```
 7. Save the file as `praise.R` in your `Day1` folder.
 8. Open `praise.R` again, make sure .R is associated with RStudio from now on. Run the code again to get a new random praise message.
@@ -87,7 +87,7 @@ Dr. Josephine Lukito has a great installation guide for R and RStudio. Please fo
    number_variable <- "10"
    class(number_variable)
    ```
-9. Instead, you should use ``as.'' commands to change it to the class that you need:
+9. Instead, you should use "as." commands to change it to the class that you need:
    ```r
    number_variable <- as.numeric(number_variable)
    class(number_variable)
@@ -109,10 +109,9 @@ Dr. Josephine Lukito has a great installation guide for R and RStudio. Please fo
    ```r
    as.numeric("four")
    ```
-  It will show up as NA and gives a warning message:
-  Warning: NAs introduced by coercion
-11.  Save the file as `basic_commands_2.R` in your `Day1` folder.
-12.  For more information on data structures in R, see Jo's tutorial: https://jolukito.quarto.pub/j381m-textbook/05-structures.html
+  It will show up as NA and gives a warning message: Warning: NAs introduced by coercion
+11. Save the file as `basic_commands_2.R` in your `Day1` folder.
+12. For more information on data structures in R, see Jo's tutorial: https://jolukito.quarto.pub/j381m-textbook/05-structures.html
 
 ## R - Common Commands
 
@@ -174,6 +173,13 @@ Dr. Josephine Lukito has a great installation guide for R and RStudio. Please fo
    table(my_data$chamber)
    table(my_data$author)
    ```
+3. Some very common keyboard shortcuts in RStudio:
+   - Ctrl + Enter: Run the current line or selection
+   - Ctrl + Shift + C: Comment or uncomment the current line or selection
+   - Ctrl + Shift + M: Insert the pipe operator (%>%) (which we might talk about later)
+4. One common keyboard shortcut for Mac users to grab file's path is:
+   - Command + Option + C: Copy the file path of the selected file
+   - I am not sure if this works on Windows, but you can research it too :)
 
 ## Python - Basic Setup
 
