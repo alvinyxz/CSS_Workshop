@@ -14,7 +14,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 
 ## Schedule
 
-### Day 0 - Software Set-Up
+### Day 0 - Foundational Readings
 
 - **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day0
   - Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, A.-L., Brewer, D., Christakis, N., Contractor, N., Fowler, J., Gutmann, M., Jebara, T., King, G., Macy, M., Roy, D., & Van Alstyne, M. (2009). Computational social science. *Science, 323*(5915), 721–723. https://doi.org/10.1126/science.1167742
