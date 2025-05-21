@@ -31,23 +31,26 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - Aggarwal, M., Allen, J., Coppock, A., Frankowski, D., Messing, S., Zhang, K., Barnes, J., Beasley, A., Hantman, H., & Zheng, S. (2023). A 2 million-person, campaign-wide field experiment shows how digital advertising affects voter turnout. *Nature Human Behaviour, 7*(3), 332–341. https://doi.org/10.1038/s41562-022-01487-4
     - A secret embargoed paper at *Nature* to be sent via email; please do not share it with anyone outside the workshop---there is legal liability for doing so.
 - **Afternoon**
-  - **Seminar - CSS Overview:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.md
-  - **Lab - Get Started with R/Python:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.md
+  - **Seminar - CSS Overview:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.pdf
+  - **Lab - Get Started with R/Python:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Lab/Day1.md
 
 ### Day 2 - Text (Basic: Dictionary and Classification)
 
 - **Morning**
-  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Day2.md
+  - **Presentation:** Nicole Marie Klevanskaya, Raj Wahlquist, Sijin Chen
+  - **Slides:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Day2.pdf
   - **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2
-    - Feuerriegel, S., Maarouf, A., Bär, D., Geissler, D., Schweisthal, J., Pröllochs, N., Robertson, C. E., Rathje, S., Hartmann, J., Mohammad, S. M., Netzer, O., Siegel, A. A., Plank, B., & Van Bavel, J. J. (2025). Using natural language processing to analyse text data in behavioural science. *Nature Reviews Psychology, 4*(2), 96–111. https://doi.org/10.1038/s44159-024-00392-z
-    - Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. *Psychological Science, 32*(1), 14–26. https://doi.org/10.1177/0956797620960397 [Presentation and Discussion Lead: Raj Wahlquist]
-    - Jaidka, K., Zhou, A., & Lelkes, Y. (2019). Brevity is the soul of Twitter: The constraint affordance and political discussion. *Journal of Communication, 69*(4), 345–372. https://doi.org/10.1093/joc/jqz023
-    - Seraj, S., Blackburn, K. G., & Pennebaker, J. W. (2021). Language left behind on social media exposes the emotional and cognitive costs of a romantic breakup. *Proceedings of the National Academy of Sciences, 118*(7), e2017154118. https://doi.org/10.1073/pnas.2017154118 [Presentation by Sijin Chen]
+    - **[Guide]** Barberá, P., Boydstun, A. E., Linn, S., McMahon, R., & Nagler, J. (2021). Automated text classification of news articles: A practical guide. *Political Analysis, 29*(1), 19–42. https://doi.org/10.1017/pan.2020.8 [Presentation and Discussion Lead: Nicole Marie Klevanskaya]
+    - **[Overview]** Feuerriegel, S., Maarouf, A., Bär, D., Geissler, D., Schweisthal, J., Pröllochs, N., Robertson, C. E., Rathje, S., Hartmann, J., Mohammad, S. M., Netzer, O., Siegel, A. A., Plank, B., & Van Bavel, J. J. (2025). Using natural language processing to analyse text data in behavioural science. *Nature Reviews Psychology, 4*(2), 96–111. https://doi.org/10.1038/s44159-024-00392-z
+    - **[Psychology]** Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. *Psychological Science, 32*(1), 14–26. https://doi.org/10.1177/0956797620960397 [Presentation and Discussion Lead: Raj Wahlquist]
+    - **[Communication]** Jaidka, K., Zhou, A., & Lelkes, Y. (2019). Brevity is the soul of Twitter: The constraint affordance and political discussion. *Journal of Communication, 69*(4), 345–372. https://doi.org/10.1093/joc/jqz023 [Presentation by Sijin Chen]
+    - **[Psychology and Human Development]** Seraj, S., Blackburn, K. G., & Pennebaker, J. W. (2021). Language left behind on social media exposes the emotional and cognitive costs of a romantic breakup. *Proceedings of the National Academy of Sciences, 118*(7), e2017154118. https://doi.org/10.1073/pnas.2017154118
 - **Afternoon**
-  - **Lab - Text (Basic):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Day2.md
+  - **Lab - Text (Basic):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Lab/Day2.md
     - **LIWC:** Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. *Journal of Language and Social Psychology, 29*(1), 24–54. https://doi.org/10.1177/0261927X09351676
-    - **Sentiment:**
-    - **Moral Foundations:**
+    - **Sentiment:** Thelwall, M., Buckley, K., & Paltoglou, G. (2012). Sentiment strength detection for the social web. *Journal of the American Society for Information Science and Technology, 63*(1), 163–173. https://doi.org/10.1002/asi.21662
+    - **Moral Foundations:** Hopp, F. R., Fisher, J. T., Cornell, D., Huskey, R., & Weber, R. (2021). The extended Moral Foundations Dictionary (eMFD): Development and applications of a crowd-sourced approach to extracting moral intuitions from text. *Behavior Research Methods, 53*(1), 232–246. https://doi.org/10.3758/s13428-020-01433-0
+    - **Google Perspective:** https://www.perspectiveapi.com/
 
 ### Day 3 - Text (Advanced: Topic Modeling, Embedding, and Innovative Use)
 
@@ -140,6 +143,8 @@ To keep the workshop content fresh, assigned readings are mostly very-recent pub
 
 - Salganik, M. J. (2018). Bit by bit: Social research in the digital age. Princeton University Press.
 - Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press.
+- Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science: Import, tidy, transform, visualize, and model data (2nd edition). O’Reilly.
+- McKinney, W. (2017). Python for data analysis: Data wrangling with Pandas, NumPy, and IPython (Second edition). O’Reilly.
 - Llaudet, E., & Imai, K. (2023). Data analysis for social science: A friendly and practical introduction. Princeton University Press.
 - Pearl, J., & Mackenzie, D. (2018). The book of why: The new science of cause and effect. Basic Books.
 - Mohr, J., Bail, C. A., Frye, M., Lena, J. C., Lizardo, O., McDonnell, T. E., Mische, A., Tavory, I., & Wherry, F. F. (2020). Measuring culture. Columbia University Press.
@@ -149,7 +154,6 @@ To keep the workshop content fresh, assigned readings are mostly very-recent pub
 
 - Garg, N., Schiebinger, L., Jurafsky, D., & Zou, J. (2018). Word embeddings quantify 100 years of gender and ethnic stereotypes. *Proceedings of the National Academy of Sciences, 115*(16), E3635–E3644. https://doi.org/10.1073/pnas.1720347115
 - Li, K., Mai, F., Shen, R., & Yan, X. (2021). Measuring corporate culture using machine learning. *The Review of Financial Studies, 34*(7), 3265–3315. https://doi.org/10.1093/rfs/hhaa079
-- Barberá, P., Boydstun, A. E., Linn, S., McMahon, R., & Nagler, J. (2021). Automated text classification of news articles: A practical guide. *Political Analysis, 29*(1), 19–42. https://doi.org/10.1017/pan.2020.8
 - DiMaggio, P. (2015). Adapting computational text analysis to social science (and vice versa). *Big Data & Society, 2*(2), 2053951715602908. https://doi.org/10.1177/2053951715602908
 - Mitts, T. (2019). From isolation to radicalization: Anti-muslim hostility and support for ISIS in the West. *American Political Science Review, 113*(1), 173–194. https://doi.org/10.1017/S0003055418000618
 - Eichstaedt, J. C., Schwartz, H. A., Kern, M. L., Park, G., Labarthe, D. R., Merchant, R. M., Jha, S., Agrawal, M., Dziurzynski, L. A., Sap, M., Weeg, C., Larson, E. E., Ungar, L. H., & Seligman, M. E. P. (2015). Psychological language on Twitter predicts county-level heart disease mortality. *Psychological Science, 26*(2), 159–169. https://doi.org/10.1177/0956797614557867
