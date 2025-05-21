@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Day 1</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="day-1">Day 1</h1>
+<p>Today, we will get ready for the workshop by installing R/Python environments, getting familiar with the tools we will be using, and most importantly, setting up ChatGPT and other GenAI tools so that you can debug your code effectively.</p>
+<p>The example scripts are in the <code>Day1/Examples</code> folder. However, I do not recommend you to use it. Instead, follow the steps and create your own files. The examples are just there for reference.</p>
+<h2 id="r---basic-setup">R - Basic Setup</h2>
+<p>Dr. Josephine Lukito has a great installation guide for R and RStudio. Please follow her instructions to set up your environment: <a href="https://jolukito.quarto.pub/j381m-textbook/01-installation.html">https://jolukito.quarto.pub/j381m-textbook/01-installation.html</a></p>
+<ol>
+<li>Install R from <a href="https://cran.r-project.org/">CRAN</a></li>
+<li>Install RStudio from <a href="https://posit.co/download/rstudio-desktop/">RStudio</a></li>
+<li>Creating a new .R file in RStudio:
+<ul>
+<li>Open RStudio</li>
+<li>Click on &quot;File&quot; in the top left corner</li>
+<li>Select &quot;New File&quot; and then &quot;R Script&quot;</li>
+<li>A new tab will open with a blank script file</li>
+</ul>
+</li>
+<li>Write this the following script, and hit &quot;Ctrl + Enter&quot; or clicking the &quot;Run&quot; button in RStudio.<pre><code class="language-r">install.packages<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;praise&quot;</span><span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+<li>Load the package in RStudio:<pre><code class="language-r">library<span class="hljs-punctuation">(</span>praise<span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+<li>Run the following code in RStudio and get a random praise message:<pre><code class="language-r">praise<span class="hljs-operator">::</span>praise<span class="hljs-punctuation">(</span><span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+<li>Save the file as <code>praise.R</code> in your <code>Day1</code> folder.</li>
+<li>Open <code>praise.R</code> again, make sure .R is associated with RStudio from now on. Run the code again to get a new random praise message.</li>
+</ol>
+<h2 id="r---basic-commands-1">R - Basic Commands 1</h2>
+<ol>
+<li>Open RStudio and create a new R script file.</li>
+<li>Write the following code in the script:<pre><code class="language-r"><span class="hljs-comment"># This is a comment</span>
+x <span class="hljs-operator">&lt;-</span> 5
+y <span class="hljs-operator">&lt;-</span> 10
+z <span class="hljs-operator">&lt;-</span> x <span class="hljs-operator">+</span> y
+print<span class="hljs-punctuation">(</span>z<span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+<li>Save the file as <code>basic_commands_1.R</code> in your <code>Day1</code> folder.</li>
+<li>Run the code by selecting it and pressing &quot;Ctrl + Enter&quot; or clicking the &quot;Run&quot; button in RStudio.</li>
+<li>You should see the output <code>15</code> in the console.</li>
+</ol>
+<h2 id="r---basic-commands-2">R - Basic Commands 2</h2>
+<ol>
+<li>Open RStudio and create a new R script file.</li>
+<li>First, we will install the <code>datasets</code> package:<pre><code class="language-r">install.packages<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;datasets&quot;</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Most of the time, you do not need to install it, because it is already installed in RStudio</span>
+</code></pre>
+</li>
+<li>Load the package:<pre><code class="language-r">library<span class="hljs-punctuation">(</span>datasets<span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+<li>Load the <code>mtcars</code> dataset:<pre><code class="language-r">data<span class="hljs-punctuation">(</span>mtcars<span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+<li>View the first few rows of the dataset [Remember, while you can type it in the console to run it, I recommend you to always to type this in the script file, so that you can save it again later]:</li>
+</ol>
+<pre><code class="language-r">head<span class="hljs-punctuation">(</span>mtcars<span class="hljs-punctuation">)</span>
+head<span class="hljs-punctuation">(</span>mtcars<span class="hljs-punctuation">,</span> n <span class="hljs-operator">=</span> <span class="hljs-number">10</span><span class="hljs-punctuation">)</span>
+tail<span class="hljs-punctuation">(</span>mtcars<span class="hljs-punctuation">)</span>
+new_object <span class="hljs-operator">&lt;-</span> mtcars
+summary<span class="hljs-punctuation">(</span>new_object<span class="hljs-punctuation">)</span>
+</code></pre>
+<ol start="6">
+<li>Interpret what each of the line means</li>
+<li>We also need to know what class the object is. You can do that by:</li>
+</ol>
+<pre><code class="language-r"><span class="hljs-built_in">class</span><span class="hljs-punctuation">(</span>mtcars<span class="hljs-punctuation">)</span>
+<span class="hljs-built_in">class</span><span class="hljs-punctuation">(</span>mtcars<span class="hljs-operator">$</span>mpg<span class="hljs-punctuation">)</span>
+</code></pre>
+<ul>
+<li>The <code>mtcars</code> dataset is a data frame, which is a table-like structure in R.</li>
+<li>While the <code>mpg</code> column is numeric, which means it contains numbers.</li>
+<li>You can also check the structure of the dataset using:</li>
+</ul>
+<pre><code class="language-r">str<span class="hljs-punctuation">(</span>mtcars<span class="hljs-punctuation">)</span>
+</code></pre>
+<ul>
+<li>This will give you information about the columns, their types, and the first few values in each column.</li>
+</ul>
+<ol start="8">
+<li>This is important because we need to know what kind of data we are dealing with. For example, if you want to do a regression analysis, you need to know if the variables are numeric or categorical. Sometimes, the class of the variable is not what you expect. For example, if you have a number variable, but it could be wrongfully stored as a character string:<pre><code class="language-r">number_variable <span class="hljs-operator">&lt;-</span> <span class="hljs-string">&quot;10&quot;</span>
+<span class="hljs-built_in">class</span><span class="hljs-punctuation">(</span>number_variable<span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+<li>Instead, you should use ``as.'' commands to change it to the class that you need:<pre><code class="language-r">number_variable <span class="hljs-operator">&lt;-</span> <span class="hljs-built_in">as.numeric</span><span class="hljs-punctuation">(</span>number_variable<span class="hljs-punctuation">)</span>
+<span class="hljs-built_in">class</span><span class="hljs-punctuation">(</span>number_variable<span class="hljs-punctuation">)</span>
+number_variable <span class="hljs-operator">&lt;-</span> <span class="hljs-built_in">as.character</span><span class="hljs-punctuation">(</span>number_variable<span class="hljs-punctuation">)</span>
+<span class="hljs-built_in">class</span><span class="hljs-punctuation">(</span>number_variable<span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+<li>Further, you can type out these commands to visually learn the differences:</li>
+</ol>
+<pre><code class="language-r"><span class="hljs-comment"># Create a character variable</span>
+<span class="hljs-number">4</span>
+</code></pre>
+<p>It will show up as:
+[1] 4</p>
+<pre><code class="language-r"><span class="hljs-built_in">as.character</span><span class="hljs-punctuation">(</span><span class="hljs-number">4</span><span class="hljs-punctuation">)</span>
+</code></pre>
+<p>It will show up as:
+[1] &quot;4&quot;</p>
+<pre><code class="language-r"><span class="hljs-built_in">as.numeric</span><span class="hljs-punctuation">(</span><span class="hljs-string">&quot;four&quot;</span><span class="hljs-punctuation">)</span>
+</code></pre>
+<p>It will show up as NA and gives a warning message:
+Warning: NAs introduced by coercion
+11.  Save the file as <code>basic_commands_2.R</code> in your <code>Day1</code> folder.
+12.  For more information on data structures in R, see Jo's tutorial: <a href="https://jolukito.quarto.pub/j381m-textbook/05-structures.html">https://jolukito.quarto.pub/j381m-textbook/05-structures.html</a></p>
+<h2 id="r---common-commands">R - Common Commands</h2>
+<ol>
+<li>Open RStudio and create a new R script file.</li>
+<li>These few commands are widely used in R for logistic reasons:<pre><code class="language-r"><span class="hljs-comment"># Create a vector</span>
+my_vector <span class="hljs-operator">&lt;-</span> <span class="hljs-built_in">c</span><span class="hljs-punctuation">(</span><span class="hljs-number">1</span><span class="hljs-punctuation">,</span> <span class="hljs-number">2</span><span class="hljs-punctuation">,</span> <span class="hljs-number">3</span><span class="hljs-punctuation">,</span> <span class="hljs-number">4</span><span class="hljs-punctuation">,</span> <span class="hljs-number">5</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Create a matrix (only numbers)</span>
+my_matrix <span class="hljs-operator">&lt;-</span> matrix<span class="hljs-punctuation">(</span><span class="hljs-number">1</span><span class="hljs-operator">:</span><span class="hljs-number">9</span><span class="hljs-punctuation">,</span> nrow <span class="hljs-operator">=</span> <span class="hljs-number">3</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Create a data frame (basically a table)</span>
+my_data_frame <span class="hljs-operator">&lt;-</span> data.frame<span class="hljs-punctuation">(</span>Name <span class="hljs-operator">=</span> <span class="hljs-built_in">c</span><span class="hljs-punctuation">(</span><span class="hljs-string">&quot;Alice&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-string">&quot;Bob&quot;</span><span class="hljs-punctuation">)</span><span class="hljs-punctuation">,</span> Age <span class="hljs-operator">=</span> <span class="hljs-built_in">c</span><span class="hljs-punctuation">(</span><span class="hljs-number">25</span><span class="hljs-punctuation">,</span> <span class="hljs-number">30</span><span class="hljs-punctuation">)</span><span class="hljs-punctuation">)</span>
+View<span class="hljs-punctuation">(</span>my_data_frame<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Clean working environment</span>
+rm<span class="hljs-punctuation">(</span><span class="hljs-built_in">list</span> <span class="hljs-operator">=</span> ls<span class="hljs-punctuation">(</span><span class="hljs-punctuation">)</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Get working directory</span>
+getwd<span class="hljs-punctuation">(</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># It might show up a path like on PC like &quot;C:/Users/YourName/Documents&quot; or on Mac like &quot;~/Documents&quot;</span>
+<span class="hljs-comment"># Set working directory</span>
+setwd<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;path/to/your/directory&quot;</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># You can set it to your own path, like &quot;C:/Users/YourName/Documents/Day1&quot; or on your desktop</span>
+<span class="hljs-comment"># Reading in a CSV file</span>
+my_data <span class="hljs-operator">&lt;-</span> read.csv<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;C:/Users/YourName/Documents/Day1/Day1.csv&quot;</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># But if you have already set the working directory, you can just do:</span>
+my_data <span class="hljs-operator">&lt;-</span> read.csv<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;Day1.csv&quot;</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># You can have a look at the data</span>
+head<span class="hljs-punctuation">(</span>my_data<span class="hljs-punctuation">)</span>
+head<span class="hljs-punctuation">(</span>my_data<span class="hljs-punctuation">,</span> n <span class="hljs-operator">=</span> <span class="hljs-number">1</span><span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># You can print out the column names of the data</span>
+colnames<span class="hljs-punctuation">(</span>my_data<span class="hljs-punctuation">)</span> <span class="hljs-comment"># or simply names(my_data)</span>
+<span class="hljs-comment"># Or you can use the View function to open it in a new tab</span>
+View<span class="hljs-punctuation">(</span>my_data<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># You can look at one specific variable as well</span>
+head<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Look at the mean of a variable</span>
+mean<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Look at the median of a variable</span>
+median<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Look at the standard deviation of a variable</span>
+sd<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Look at the variance of a variable</span>
+var<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Look at the maximum of a variable</span>
+<span class="hljs-built_in">max</span><span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Look at the minimum of a variable</span>
+<span class="hljs-built_in">min</span><span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Look at the correlation of two variables</span>
+cor<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">,</span> my_data<span class="hljs-operator">$</span>retweets<span class="hljs-punctuation">)</span>
+cor.test<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">,</span> my_data<span class="hljs-operator">$</span>retweets<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Plot it</span>
+plot<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">,</span> my_data<span class="hljs-operator">$</span>retweets<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># You can run a regression with it too</span>
+lm_model <span class="hljs-operator">&lt;-</span> lm<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>retweets <span class="hljs-operator">~</span> my_data<span class="hljs-operator">$</span>favorites<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># Or you can use the formula directly</span>
+lm_model <span class="hljs-operator">&lt;-</span> lm<span class="hljs-punctuation">(</span>retweets <span class="hljs-operator">~</span> favorites<span class="hljs-punctuation">,</span> data <span class="hljs-operator">=</span> my_data<span class="hljs-punctuation">)</span>
+summary<span class="hljs-punctuation">(</span>lm_model<span class="hljs-punctuation">)</span>
+<span class="hljs-comment"># You can use table() to look at the frequency of a variable</span>
+table<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>Party<span class="hljs-punctuation">)</span>
+table<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>chamber<span class="hljs-punctuation">)</span>
+table<span class="hljs-punctuation">(</span>my_data<span class="hljs-operator">$</span>author<span class="hljs-punctuation">)</span>
+</code></pre>
+</li>
+</ol>
+<h2 id="python---basic-setup">Python - Basic Setup</h2>
+<p>We’ll use the Anaconda distribution of Python. It includes Python, JupyterLab, and many essential libraries for data science and computational social science.</p>
+<ol>
+<li>Download and install Anaconda: <a href="https://www.anaconda.com/products/distribution">https://www.anaconda.com/products/distribution</a></li>
+<li>Launch Anaconda Navigator and open JupyterLab</li>
+<li>It will open a tab in your browser like: <a href="http://localhost:8888/lab">http://localhost:8888/lab</a></li>
+<li>In JupyterLab, click the “+” button or go to File &gt; New &gt; Notebook &gt; Python 3 (ipykernel). You’ll see a blank notebook with a cell that you can type code into</li>
+<li>In the first cell, type:<pre><code class="language-python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello, world!&quot;</span>)
+</code></pre>
+</li>
+<li>Run the cell by clicking the “Run” button or pressing Shift + Enter</li>
+<li>Since you are using JupyterLab, you can also use Markdown (a text-based formatting syntax) to write notes. To do this, <strong>create a new cell</strong> and change the cell type from Code to Markdown from the dropdown menu. Type:<pre><code class="language-markdown"><span class="hljs-section"># This is a header</span>
+<span class="hljs-section">## This is a subheader</span>
+</code></pre>
+</li>
+<li>Run the cell to see the formatted text</li>
+<li>Since Python doesn't have an equivalent of R's <code>praise</code> package, we will use the <code>random</code> package to generate a random praise. Type:<pre><code class="language-python"><span class="hljs-keyword">import</span> random
+compliments = [
+ <span class="hljs-string">&quot;You&#x27;re doing amazing!&quot;</span>,
+ <span class="hljs-string">&quot;That was a great cell!&quot;</span>,
+ <span class="hljs-string">&quot;Nice job!&quot;</span>,
+ <span class="hljs-string">&quot;Python suits you.&quot;</span>,
+ <span class="hljs-string">&quot;You&#x27;re not just coding, you&#x27;re crafting!&quot;</span>
+ ]
+ <span class="hljs-built_in">print</span>(random.choice(compliments))
+</code></pre>
+</li>
+<li>Run the cell by clicking the “Run” button or pressing Shift + Enter</li>
+</ol>
+<h2 id="python---basic-commands-1">Python - Basic Commands 1</h2>
+<ol>
+<li>Open Anaconda, JupyterLab, create a new notebook, and name it basic_commands_1.ipynb</li>
+<li>In the first cell, type:<pre><code class="language-python"><span class="hljs-comment"># This is a comment</span>
+x = <span class="hljs-number">5</span>
+y = <span class="hljs-number">10</span>
+z = x + y
+<span class="hljs-built_in">print</span>(z)
+</code></pre>
+</li>
+<li>Run the cell by clicking the “Run” button or pressing Shift + Enter. You should see the output: <code>15</code></li>
+</ol>
+<h2 id="python---basic-commands-2">Python - Basic Commands 2</h2>
+<ol>
+<li>Open Anaconda, JupyterLab, create a new notebook, and name it basic_commands_2.ipynb</li>
+<li>In the first cell, import pandas and numpy (panda is the most widely used package for data analysis in Python, and numpy is the most widely used package for numerical analysis):<pre><code class="language-python"><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+</code></pre>
+</li>
+<li>In the second cell, create a DataFrame using a built-in dataset:<pre><code class="language-python"><span class="hljs-keyword">from</span> sklearn.datasets <span class="hljs-keyword">import</span> load_iris
+iris = load_iris(as_frame=<span class="hljs-literal">True</span>)
+df = iris.frame
+</code></pre>
+</li>
+<li>In the third cell, explore the dataset:<pre><code class="language-python">df
+</code></pre>
+</li>
+<li>In the fourth cell, view the first few rows of the dataset:<pre><code class="language-python">df.head()
+</code></pre>
+</li>
+<li>In the fifth cell, view the last few rows of the dataset:<pre><code class="language-python">df.tail()
+</code></pre>
+</li>
+<li>In the sixth cell, view the summary of the dataset:<pre><code class="language-python">df.describe()
+</code></pre>
+</li>
+<li>In the seventh cell, view the structure of the dataset:<pre><code class="language-python">df.info()
+</code></pre>
+</li>
+<li>In the eighth cell, view the column names of the dataset:<pre><code class="language-python">df.columns
+</code></pre>
+</li>
+<li>At this point, you should see that in Python, the first row is indexed as 0, and the last row is indexed as 149. So, to get the first row, you can do:<pre><code class="language-python">df.iloc[<span class="hljs-number">0</span>]
+</code></pre>
+</li>
+<li>To get the last row, you can do:<pre><code class="language-python">df.iloc[-<span class="hljs-number">1</span>]
+</code></pre>
+</li>
+<li>To get the first 10 rows, you can do:<pre><code class="language-python">df.iloc[:<span class="hljs-number">10</span>]
+</code></pre>
+</li>
+<li>To get the first column, you can do:<pre><code class="language-python">df.iloc[:, <span class="hljs-number">0</span>]
+</code></pre>
+</li>
+<li>To get the last column, you can do:<pre><code class="language-python">df.iloc[:, -<span class="hljs-number">1</span>]
+</code></pre>
+</li>
+<li>Or, if you know the name of the column, you can do:<pre><code class="language-python">df[<span class="hljs-string">&#x27;sepal length (cm)&#x27;</span>]
+</code></pre>
+</li>
+</ol>
+<h2 id="python---common-commands">Python - Common Commands</h2>
+<ol>
+<li>Open Anaconda, JupyterLab, create a new notebook, and name it common_commands.ipynb</li>
+<li>In the first cell, import pandas and numpy:<pre><code class="language-python"><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+</code></pre>
+</li>
+<li>In the second cell, create a list:<pre><code class="language-python"><span class="hljs-comment"># Check current working directory</span>
+<span class="hljs-keyword">import</span> os
+os.getcwd()
+<span class="hljs-comment"># Change working directory (optional)</span>
+<span class="hljs-comment"># os.chdir(&quot;/your/path/here&quot;)</span>
+</code></pre>
+</li>
+<li>In the third cell, create a list:<pre><code class="language-python"><span class="hljs-comment"># Create a list</span>
+my_list = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+<span class="hljs-built_in">print</span>(my_list)
+</code></pre>
+</li>
+<li>In the fourth cell, create a dictionary:<pre><code class="language-python"><span class="hljs-comment"># Create a dictionary and convert to a DataFrame</span>
+my_data_frame = pd.DataFrame({
+<span class="hljs-string">&quot;Name&quot;</span>: [<span class="hljs-string">&quot;Alice&quot;</span>, <span class="hljs-string">&quot;Bob&quot;</span>],
+<span class="hljs-string">&quot;Age&quot;</span>: [<span class="hljs-number">25</span>, <span class="hljs-number">30</span>]
+})
+<span class="hljs-built_in">print</span>(my_data_frame)
+</code></pre>
+</li>
+<li>In the fifth cell, read in a CSV file:<pre><code class="language-python">data = pd.read_csv(<span class="hljs-string">&quot;Day1.csv&quot;</span>)
+<span class="hljs-comment"># View data</span>
+data
+</code></pre>
+</li>
+<li>In the sixth cell, view the first few rows of the data:<pre><code class="language-python">data.head()
+</code></pre>
+</li>
+<li>In the seventh cell, view the last few rows of the data:<pre><code class="language-python">data.tail()
+</code></pre>
+</li>
+<li>In the eighth cell, view the column names of the data:<pre><code class="language-python">data.columns
+</code></pre>
+</li>
+<li>In the ninth cell, view the summary of the data:<pre><code class="language-python">data.describe()
+</code></pre>
+</li>
+<li>In the tenth cell, view the first column of the data:<pre><code class="language-python">data.iloc[:, <span class="hljs-number">0</span>]
+</code></pre>
+</li>
+<li>In the eleventh cell, view the first row of the data:<pre><code class="language-python">data.iloc[<span class="hljs-number">0</span>]
+</code></pre>
+</li>
+<li>In the twelfth cell, view the last column of the data:<pre><code class="language-python">data.iloc[:, -<span class="hljs-number">1</span>]
+</code></pre>
+</li>
+<li>In the thirteenth cell, view the first 10 rows of the data:<pre><code class="language-python">data.iloc[:<span class="hljs-number">10</span>]
+</code></pre>
+</li>
+<li>In the fourteenth cell, once you know which column to look into, you can describe the data:<pre><code class="language-python">data[<span class="hljs-string">&#x27;favorites&#x27;</span>].describe()
+</code></pre>
+</li>
+<li>In the fifteenth cell, you can try different functions:<pre><code class="language-python">data[<span class="hljs-string">&quot;favorites&quot;</span>].mean()
+data[<span class="hljs-string">&quot;favorites&quot;</span>].median()
+data[<span class="hljs-string">&quot;favorites&quot;</span>].std()
+data[<span class="hljs-string">&quot;favorites&quot;</span>].var()
+data[<span class="hljs-string">&quot;favorites&quot;</span>].<span class="hljs-built_in">max</span>()
+data[<span class="hljs-string">&quot;favorites&quot;</span>].<span class="hljs-built_in">min</span>()
+</code></pre>
+</li>
+<li>In the sixteenth cell, you can also look at the correlation of two variables:<pre><code class="language-python">data[[<span class="hljs-string">&#x27;favorites&#x27;</span>, <span class="hljs-string">&#x27;retweets&#x27;</span>]].corr()
+<span class="hljs-comment"># The two brackets &quot;[[&quot; indicate which columns to draw</span>
+</code></pre>
+</li>
+<li>You can also use a more logical approach:<pre><code class="language-python"><span class="hljs-comment"># you pick out favorites first, and then calculate the correlation with retweets</span>
+data[<span class="hljs-string">&quot;favorites&quot;</span>].corr(data[<span class="hljs-string">&quot;retweets&quot;</span>])
+</code></pre>
+</li>
+<li>In Python, we usually use matplotlib to plot the data:<pre><code class="language-python"><span class="hljs-comment"># Plotting</span>
+<span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+
+plt.scatter(data[<span class="hljs-string">&quot;favorites&quot;</span>], data[<span class="hljs-string">&quot;retweets&quot;</span>])
+plt.xlabel(<span class="hljs-string">&quot;Favorites&quot;</span>)
+plt.ylabel(<span class="hljs-string">&quot;Retweets&quot;</span>)
+plt.title(<span class="hljs-string">&quot;Scatterplot of Favorites vs Retweets&quot;</span>)
+plt.show()
+</code></pre>
+</li>
+<li>Run a linear regression with statsmodels.api:<pre><code class="language-python"><span class="hljs-keyword">import</span> statsmodels.api <span class="hljs-keyword">as</span> sm
+X = data[<span class="hljs-string">&quot;favorites&quot;</span>]
+y = data[<span class="hljs-string">&quot;retweets&quot;</span>]
+X = sm.add_constant(X)
+<span class="hljs-comment"># statsmodels.OLS() does not automatically add a constant term</span>
+model = sm.OLS(y, X).fit()
+<span class="hljs-built_in">print</span>(model.summary())
+</code></pre>
+</li>
+</ol>
+<h2 id="learn-how-to-debug-your-code-with-chatgpt">Learn how to debug your code with ChatGPT</h2>
+<ol>
+<li>Open ChatGPT (I have it installed on my Mac) and start a new conversation</li>
+<li>Copy and paste your code into the chat</li>
+<li>Describe the issue you're facing</li>
+<li>Ask for help with debugging</li>
+</ol>
+<p>To practice, I have a code with errors, stored in a folder called <code>debugging_example.R</code> and <code>debugging_example.py</code>.</p>
+<ol>
+<li>Copy and paste the two files and rename them to <code>debugged_example.R</code> and <code>debugged_example.py</code> in your <code>Day1</code> folder</li>
+<li>Run the code in RStudio and JupyterLab</li>
+<li>You should see some errors</li>
+<li>Copy and paste the code into ChatGPT and ask it to debug the code</li>
+<li>ChatGPT will help you identify the errors and suggest fixes</li>
+<li>Apply the fixes to your code and run it again</li>
+<li>You should see the output without any errors</li>
+<li>Save the files as <code>debugged_example.R</code> and <code>debugged_example.py</code> in your <code>Day1</code> folder</li>
+<li>You can also use ChatGPT to explain the code to you, so that you can understand it better.</li>
+</ol>
+<h2 id="focus-on-r-and-one-more-add-on">Focus on R and One More Add-On</h2>
+<p>We will focus on R for the rest of the workshop. However, if you are interested in Python, you can use it as well. The code is similar, and you can easily convert it from R to Python or vice versa (using ChatGPT).</p>
+<p>One more add-on I highly recommend in R Studio is the GitHub Copilot. It is a paid service, but free for students. You can sign up for it here:</p>
+
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+            
+        </body>
+        </html>
