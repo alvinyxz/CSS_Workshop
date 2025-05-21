@@ -2,7 +2,7 @@
 
 Today, we will get ready for the workshop by installing R/Python environments, getting familiar with the tools we will be using, and most importantly, setting up ChatGPT and other GenAI tools so that you can debug your code effectively.
 
-The example scripts are in the `Day1/Examples` folder. However, I do not recommend you to use it. Instead, follow the steps and create your own files. The examples are just there for reference.
+The model code scripts are stored in the `Day1/Lab/Model_Code` folder. However, I do not recommend you to use it. Instead, follow the steps below and create your own files. The model code scripts are just there when you encounter serious problems.
 
 ## R - Basic Setup
 

@@ -1,0 +1,32 @@
+# Load dataset package
+install.packages("datasets")
+# Most of the time, you do not need to install it, because it is already installed in RStudio
+library(datasets)
+
+# Load the mtcars dataset
+data(mtcars)
+
+# View the dataset
+head(mtcars)
+head(mtcars, n = 10)
+tail(mtcars)
+new_object <- mtcars
+summary(new_object)
+
+# Understand the data structure
+class(mtcars)
+class(mtcars$mpg)
+str(mtcars)
+
+# Class coercion example
+number_variable <- "10"
+class(number_variable)
+number_variable <- as.numeric(number_variable)
+class(number_variable)
+number_variable <- as.character(number_variable)
+class(number_variable)
+
+# Visual exploration of type conversion
+4
+as.character(4)
+as.numeric("four")

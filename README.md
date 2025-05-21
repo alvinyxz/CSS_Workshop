@@ -48,52 +48,67 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 - **Afternoon**
   - **Lab - Text (Basic):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day2/Lab/Day2.md
     - **LIWC:** Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. *Journal of Language and Social Psychology, 29*(1), 24–54. https://doi.org/10.1177/0261927X09351676
-    - **Sentiment:** Thelwall, M., Buckley, K., & Paltoglou, G. (2012). Sentiment strength detection for the social web. *Journal of the American Society for Information Science and Technology, 63*(1), 163–173. https://doi.org/10.1002/asi.21662
+    - **Sentiment:**
+      - `AFINN`, `bing`, and `nrc` in `tidytext`
+      - Thelwall, M., Buckley, K., & Paltoglou, G. (2012). Sentiment strength detection for the social web. *Journal of the American Society for Information Science and Technology, 63*(1), 163–173. https://doi.org/10.1002/asi.21662
     - **Moral Foundations:** Hopp, F. R., Fisher, J. T., Cornell, D., Huskey, R., & Weber, R. (2021). The extended Moral Foundations Dictionary (eMFD): Development and applications of a crowd-sourced approach to extracting moral intuitions from text. *Behavior Research Methods, 53*(1), 232–246. https://doi.org/10.3758/s13428-020-01433-0
-    - **Google Perspective:** https://www.perspectiveapi.com/
+    - Register for **Google Perspective** which we will use next class: https://www.perspectiveapi.com/
 
-### Day 3 - Text (Advanced: Topic Modeling, Embedding, and Innovative Use)
+### Day 3 - Text (Advanced: API, Topic Modeling, Embedding, and Innovative Use)
 
 - **Morning**
-  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3/Day3.md
+  - **Presentation:** Jialu Fan, Mallory Harrington, Michael Ofori
+  - **Slides:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3/Day3.pdf
   - **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3
     - Toubia, O., Berger, J., & Eliashberg, J. (2021). How quantifying the shape of stories predicts their success. *Proceedings of the National Academy of Sciences, 118*(26), e2011695118. https://doi.org/10.1073/pnas.2011695118 [Presentation and Discussion Lead: Jialu Fan]
     - Kozlowski, A. C., Taddy, M., & Evans, J. A. (2019). The geometry of culture: Analyzing the meanings of class through word embeddings. *American Sociological Review, 84*(5), 905–949. https://doi.org/10.1177/0003122419877135 [Presentation and Discussion Lead: Mallory Harrington]
-    - Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/00491241221122528
+    - Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/00491241221122528 [Presentation and Discussion Lead: Michael Ofori]
     - Zhou, A., Capizzo, L. W., Page, T. G., & Toth, E. L. (2023). Exploring public relations research topics and inter-cluster dynamics through computational modeling (2010-2020): A study based on two SSCI journals. *Journal of Public Relations Research, 35*(3), 135–161. https://doi.org/10.1080/1062726X.2023.2180373
 - **Afternoon**
   - **Lab - Text (Advanced):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3/Day3.md
-    - **Topic Modeling**
+    - **Google Perspective**: https://www.perspectiveapi.com/
+    - **Topic Modeling**:
+      - Roberts, M. E., Stewart, B. M., Tingley, D., Lucas, C., Leder-Luis, J., Gadarian, S. K., Albertson, B., & Rand, D. G. (2014). Structural topic models for open-ended survey responses. *American Journal of Political Science, 58*(4), 1064–1082. https://doi.org/10.1111/ajps.12103
+      - Roberts, M. E., Stewart, B. M., & Tingley, D. (2019). Stm: An R package for structural topic models. *Journal of Statistical Software, 91*(2). https://doi.org/10.18637/jss.v091.i02
 
 ### Day 4 - Networks
 
 - **Morning**
-  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
+  - **Presentation:** Eunsun Kyoung, Dongwook Kim, Rita Tang
+  - **Slides:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.pdf
   - **Reading:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4
     - Park, P. S., Blumenstock, J. E., & Macy, M. W. (2018). The strength of long-range ties in population-scale social networks. *Science, 362*(6421), 1410–1413. https://doi.org/10.1126/science.aau9735
     - Schlosser, F., Maier, B. F., Jack, O., Hinrichs, D., Zachariae, A., & Brockmann, D. (2020). COVID-19 lockdown induces disease-mitigating structural changes in mobility networks. *Proceedings of the National Academy of Sciences, 117*(52), 32883–32890. https://doi.org/10.1073/pnas.2012326117 [Presentation and Discussion Lead: Eunsun Kyoung]
-    - Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science, 359*(6380), 1146–1151. https://doi.org/10.1126/science.aap9559
+    - Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science, 359*(6380), 1146–1151. https://doi.org/10.1126/science.aap9559 [Presentation and Discussion Lead: Dongwook Kim]
     - González-Bailón, S., Lazer, D., Barberá, P., Zhang, M., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A. M., Iyengar, S., Kim, Y. M., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C. V., Settle, J., Thorson, E., … Tucker, J. A. (2023). Asymmetric ideological segregation in exposure to political news on Facebook. *Science, 381*(6656), 392–398. https://doi.org/10.1126/science.ade7138
-    - Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the social network and the evolution of the influence of ancient Chinese poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182
-
+    - Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the social network and the evolution of the influence of ancient Chinese poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182 [Presentation and Discussion Lead: Rita Tang]
 - **Afternoon**
   - **Lab - Networks:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
-    - Zhou, A., & Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. *Social Media + Society, 7*(3), 205630512110475. https://doi.org/10.1177/20563051211047545
+    - **What Networks Could Be** slides: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4_Lab.pdf
+    - **Semantic Networks**:
+      - Zhou, A., Liu, W., & Yang, A. (2024). Politicization of science in COVID-19 vaccine communication: Comparing US politicians, medical experts, and government agencies. *Political Communication, 41*(4), 649–671. https://doi.org/10.1080/10584609.2023.2201184
+    - **Social Networks**:
+      - Zhou, A., & Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. *Social Media + Society, 7*(3), 205630512110475. https://doi.org/10.1177/20563051211047545
 
 ### Day 5 - The Web, Computational Infrastructure, and Innovative Datasets
 
 - **Morning**
-  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.md
+  - **Presentation:** Jikai Sun, Jong Won Lee, Emmanuella Afimaa
+  - **Slides:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.pdf
   - **Reading:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5
     - Haroon, M., Wojcieszak, M., Chhabra, A., Liu, X., Mohapatra, P., & Shafiq, Z. (2023). Auditing YouTube’s recommendation system for ideologically congenial, extreme, and problematic recommendations. *Proceedings of the National Academy of Sciences, 120*(50), e2213020120. https://doi.org/10.1073/pnas.2213020120 [Presentation and Discussion Lead: Jikai Sun]
     - Park, M., Yu, C., & Macy, M. (2023). Fighting bias with bias: How same-race endorsements reduce racial discrimination on Airbnb. *Science Advances, 9*(6), eadd2315. https://doi.org/10.1126/sciadv.add2315 [Presentation by Jong Won Lee]
-    - Robertson, R. E., Green, J., Ruck, D. J., Ognyanova, K., Wilson, C., & Lazer, D. (2023). Users choose to engage with more partisan news than they are exposed to on Google Search. *Nature, 618*(7964), 342–348. https://doi.org/10.1038/s41586-023-06078-5
+    - Robertson, R. E., Green, J., Ruck, D. J., Ognyanova, K., Wilson, C., & Lazer, D. (2023). Users choose to engage with more partisan news than they are exposed to on Google Search. *Nature, 618*(7964), 342–348. https://doi.org/10.1038/s41586-023-06078-5 [Presentation and Discussion Lead: Emmanuella Afimaa]
     - Ohme, J., Araujo, T., Boeschoten, L., Freelon, D., Ram, N., Reeves, B. B., & Robinson, T. N. (2024). Digital trace data collection for social media effects research: APIs, data donation, and (screen) tracking. *Communication Methods and Measures, 18*(2), 124–141. https://doi.org/10.1080/19312458.2023.2181319
     - Clemm Von Hohenberg, B., Stier, S., Cardenal, A. S., Guess, A. M., Menchen-Trevino, E., & Wojcieszak, M. (2024). Analysis of web browsing data: A guide. *Social Science Computer Review, 42*(6), 1479–1504. https://doi.org/10.1177/08944393241227868
     - Althoff, T., Sosič, R., Hicks, J. L., King, A. C., Delp, S. L., & Leskovec, J. (2017). Large-scale physical activity data reveal worldwide activity inequality. *Nature, 547*(7663), 336–339. https://doi.org/10.1038/nature23018
     - Zagheni, E., Weber, I., & Gummadi, K. (2017). Leveraging Facebook’s advertising platform to monitor stocks of migrants. *Population and Development Review, 43*(4), 721–734. https://doi.org/10.1111/padr.12102
 - **Afternoon**
-  - **Lab - YouTube, Reddit, and Web Scraping:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.md
+  - **Lab - The Web, Computational Infrastructure, and Innovative Datasets:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.md
+    - **Web Scraping**:
+    - **Reddit API**:
+    - **YouTube API**:
+    - **TikTok API**: Apply it here https://developers.tiktok.com/docs/getting-started
 
 ### Day 6 - Image/Audio/Video
 
@@ -111,11 +126,14 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - Legewie, N. M., & Nassauer, A. (2023). Current and future debates in video data analysis. *Sociological Methods & Research, 52*(3), 1107–1119. https://doi.org/10.1177/00491241231178275
 - **Afternoon**
   - **Lab - Image/Audio/Video:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day6/Day6.md
+    - **Athec:**
+    - **Face++:**
 
 ### Day 7 - Looking Ahead and LLM
 
 - **Morning**
-  - **To-Do:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.md
+  - **Presentation:** Gretchen Corcoran, Paulina Vergara, Jinny Zhang
+  - **Slides:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.pdf
   - **Reading:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7
     - **Computational Storytelling and the DEMM (Description-Experimentation-Mediator-Moderator) Framework**
       - Watts, D. J. (2017). Should social science be more solution-oriented? *Nature Human Behaviour, 1*(1), 0015. https://doi.org/10.1038/s41562-016-0015
@@ -129,7 +147,8 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
       - Yang, T., Ticona, J., & Lelkes, Y. (2021). Policing the digital divide: Institutional gate-keeping & criminalizing digital inclusion. *Journal of Communication, 71*(4), 572–597. https://doi.org/10.1093/joc/jqab019 [Presentation and Discussion Lead: Paulina Vergara]
       - Wang, Y., Qin, M. S., Luo, X., & Kou, Y. (Eric). (2022). Frontiers: How support for black lives matter impacts consumer responses on social media. *Marketing Science, 41*(6), 1029–1044. https://doi.org/10.1287/mksc.2022.1372 [Presentation and Discussion Lead: Jinny Zhang]
 - **Afternoon**
-  - **Seminar and Lab - LLM:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.md
+  - **Lab - Looking Ahead and LLM (Jiacheng Huang):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.md
+    - **LLM Text and Image Coding**
     - Lee, T. B., & Trott, S. (2023, July 27). Large language models, explained with a minimum of math and jargon. *Understanding AI*. https://www.understandingai.org/p/large-language-models-explained-with
     - Argyle, L. P., Bail, C. A., Busby, E. C., Gubler, J. R., Howe, T., Rytting, C., Sorensen, T., & Wingate, D. (2023). Leveraging AI for democratic discourse: Chat interventions can improve online political conversations at scale. *Proceedings of the National Academy of Sciences, 120*(41), e2311627120. https://doi.org/10.1073/pnas.2311627120
     - Park, J. S., O’Brien, J., Cai, C. J., Morris, M. R., Liang, P., & Bernstein, M. S. (2023). Generative agents: Interactive simulacra of human behavior. *Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology*, 1–22. https://doi.org/10.1145/3586183.3606763
@@ -185,7 +204,6 @@ To keep the workshop content fresh, assigned readings are mostly very-recent pub
 - Zhou, A., Metaxa, D., Kim, Y. M., & Jaidka, K. (2024). User-centric behavioral tracking: Lessons from three case studies with do-it-yourself computational pipelines. *Journal of Advertising, 53*(5), 791–809. https://doi.org/10.1080/00913367.2024.2403613
 
 ### Day 6: Images/Videos/Audio
-
 
 - Peng, Y. (2018). Same candidates, different faces: Uncovering media bias in visual portrayals of presidential candidates with computer vision. *Journal of Communication, 68*(5), 920–941. https://doi.org/10.1093/joc/jqy041
 - Zhang, H., & Peng, Y. (2024). Image clustering: An unsupervised approach to categorize visual data in social science research. *Sociological Methods & Research, 53*(3), 1534–1587. https://doi.org/10.1177/00491241221082603
