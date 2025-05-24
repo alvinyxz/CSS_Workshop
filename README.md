@@ -62,7 +62,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
   - **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3
     - Toubia, O., Berger, J., & Eliashberg, J. (2021). How quantifying the shape of stories predicts their success. *Proceedings of the National Academy of Sciences, 118*(26), e2011695118. https://doi.org/10.1073/pnas.2011695118 [Presentation and Discussion Lead: Jialu Fan]
     - Kozlowski, A. C., Taddy, M., & Evans, J. A. (2019). The geometry of culture: Analyzing the meanings of class through word embeddings. *American Sociological Review, 84*(5), 905–949. https://doi.org/10.1177/0003122419877135 [Presentation and Discussion Lead: Mallory Harrington]
-    - Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/00491241221122528 [Presentation and Discussion Lead: Michael Ofori]
+    - Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/0049124122112<<2528 [Presentation and Discussion Lead: Michael Ofori]
     - Zhou, A., Capizzo, L. W., Page, T. G., & Toth, E. L. (2023). Exploring public relations research topics and inter-cluster dynamics through computational modeling (2010-2020): A study based on two SSCI journals. *Journal of Public Relations Research, 35*(3), 135–161. https://doi.org/10.1080/1062726X.2023.2180373
 - **Afternoon**
   - **Lab - Text (Advanced):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3/Day3.md
@@ -93,12 +93,12 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 ### Day 5 - The Web, Computational Infrastructure, and Innovative Datasets
 
 - **Morning**
-  - **Presentation:** Jikai Sun, Jong Won Lee, Emmanuella Afimaa
+  - **Presentation:** Jikai Sun, Jong Won Lee, Shreepriya Dogra
   - **Slides:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.pdf
   - **Reading:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5
     - Haroon, M., Wojcieszak, M., Chhabra, A., Liu, X., Mohapatra, P., & Shafiq, Z. (2023). Auditing YouTube’s recommendation system for ideologically congenial, extreme, and problematic recommendations. *Proceedings of the National Academy of Sciences, 120*(50), e2213020120. https://doi.org/10.1073/pnas.2213020120 [Presentation and Discussion Lead: Jikai Sun]
     - Park, M., Yu, C., & Macy, M. (2023). Fighting bias with bias: How same-race endorsements reduce racial discrimination on Airbnb. *Science Advances, 9*(6), eadd2315. https://doi.org/10.1126/sciadv.add2315 [Presentation by Jong Won Lee]
-    - Robertson, R. E., Green, J., Ruck, D. J., Ognyanova, K., Wilson, C., & Lazer, D. (2023). Users choose to engage with more partisan news than they are exposed to on Google Search. *Nature, 618*(7964), 342–348. https://doi.org/10.1038/s41586-023-06078-5 [Presentation and Discussion Lead: Emmanuella Afimaa]
+    - Robertson, R. E., Green, J., Ruck, D. J., Ognyanova, K., Wilson, C., & Lazer, D. (2023). Users choose to engage with more partisan news than they are exposed to on Google Search. *Nature, 618*(7964), 342–348. https://doi.org/10.1038/s41586-023-06078-5 [Presentation and Discussion Lead: Shreepriya Dogra]
     - Ohme, J., Araujo, T., Boeschoten, L., Freelon, D., Ram, N., Reeves, B. B., & Robinson, T. N. (2024). Digital trace data collection for social media effects research: APIs, data donation, and (screen) tracking. *Communication Methods and Measures, 18*(2), 124–141. https://doi.org/10.1080/19312458.2023.2181319
     - Clemm Von Hohenberg, B., Stier, S., Cardenal, A. S., Guess, A. M., Menchen-Trevino, E., & Wojcieszak, M. (2024). Analysis of web browsing data: A guide. *Social Science Computer Review, 42*(6), 1479–1504. https://doi.org/10.1177/08944393241227868
     - Althoff, T., Sosič, R., Hicks, J. L., King, A. C., Delp, S. L., & Leskovec, J. (2017). Large-scale physical activity data reveal worldwide activity inequality. *Nature, 547*(7663), 336–339. https://doi.org/10.1038/nature23018
@@ -143,6 +143,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **Methodological Triangulation**
       - Nelson, L. K. (2020). Computational grounded theory: A methodological framework. *Sociological Methods & Research, 49*(1), 3–42. https://doi.org/10.1177/0049124117729703
       - Ophir, Y., Walter, D., & Marchant, E. R. (2020). A collaborative way of knowing: Bridging computational communication research and grounded theory ethnography. *Journal of Communication, 70*(3), 447–472. https://doi.org/10.1093/joc/jqaa013
+      - Than, N., Fan, L., Law, T., Nelson, L. K., & McCall, L. (2025). Updating “the future of coding”: Qualitative coding with generative large language models. *Sociological Methods & Research*. https://doi.org/10.1177/00491241251339188
     - **Social Good**
       - Yang, T., Ticona, J., & Lelkes, Y. (2021). Policing the digital divide: Institutional gate-keeping & criminalizing digital inclusion. *Journal of Communication, 71*(4), 572–597. https://doi.org/10.1093/joc/jqab019 [Presentation and Discussion Lead: Paulina Vergara]
       - Wang, Y., Qin, M. S., Luo, X., & Kou, Y. (Eric). (2022). Frontiers: How support for black lives matter impacts consumer responses on social media. *Marketing Science, 41*(6), 1029–1044. https://doi.org/10.1287/mksc.2022.1372 [Presentation and Discussion Lead: Jinny Zhang]
