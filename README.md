@@ -57,12 +57,12 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 ### Day 3 - Text (Advanced: API, Topic Modeling, Embedding, and Innovative Use)
 
 - **Morning**
-  - **Presentation:** Jialu Fan, Mallory Harrington, Michael Ofori
+  - **Presentation:** Jialu Fan, Jiacheng Huang, Michael Ofori
   - **Slides:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3/Day3.pdf
   - **Readings:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3
     - **[Text But Used Differently]** Toubia, O., Berger, J., & Eliashberg, J. (2021). How quantifying the shape of stories predicts their success. *Proceedings of the National Academy of Sciences, 118*(26), e2011695118. https://doi.org/10.1073/pnas.2011695118 [Presentation and Discussion Lead: Jialu Fan]
     - **[Text But Used Differently]** Zhou, A., Capizzo, L. W., Page, T. G., & Toth, E. L. (2023). Exploring public relations research topics and inter-cluster dynamics through computational modeling (2010-2020): A study based on two SSCI journals. *Journal of Public Relations Research, 35*(3), 135–161. https://doi.org/10.1080/1062726X.2023.2180373
-    - **[Measuring Culture]** Kozlowski, A. C., Taddy, M., & Evans, J. A. (2019). The geometry of culture: Analyzing the meanings of class through word embeddings. *American Sociological Review, 84*(5), 905–949. https://doi.org/10.1177/0003122419877135 [Presentation and Discussion Lead: Mallory Harrington]
+    - **[Measuring Culture]** Kozlowski, A. C., Taddy, M., & Evans, J. A. (2019). The geometry of culture: Analyzing the meanings of class through word embeddings. *American Sociological Review, 84*(5), 905–949. https://doi.org/10.1177/0003122419877135 [Presentation and Discussion Lead: Jiacheng Huang]
     - **[Sociology and History]** Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/0049124122112<<2528 [Presentation and Discussion Lead: Michael Ofori]
 - **Afternoon**
   - **Lab - Text (Advanced):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3/Day3.md
@@ -81,7 +81,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **[How to Make Network Description Engaging]** Schlosser, F., Maier, B. F., Jack, O., Hinrichs, D., Zachariae, A., & Brockmann, D. (2020). COVID-19 lockdown induces disease-mitigating structural changes in mobility networks. *Proceedings of the National Academy of Sciences, 117*(52), 32883–32890. https://doi.org/10.1073/pnas.2012326117 [Presentation and Discussion Lead: Eunsun Kyoung]
     - **[Create New Measures for Network Analysis]** Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science, 359*(6380), 1146–1151. https://doi.org/10.1126/science.aap9559 [Presentation and Discussion Lead: Dongwook Kim]
     - **[Projection Data]** González-Bailón, S., Lazer, D., Barberá, P., Zhang, M., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A. M., Iyengar, S., Kim, Y. M., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C. V., Settle, J., Thorson, E., … Tucker, J. A. (2023). Asymmetric ideological segregation in exposure to political news on Facebook. *Science, 381*(6656), 392–398. https://doi.org/10.1126/science.ade7138
-    - **[Network is Everywhere]** Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the social network and the evolution of the influence of ancient Chinese poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182 [Presentation and Discussion Lead: Rita Tang]
+    - **[Historical Sociology - Network is Everywhere]** Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the social network and the evolution of the influence of ancient Chinese poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182 [Presentation and Discussion Lead: Rita Tang]
 - **Afternoon**
   - **Lab - Networks:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
     - **What Networks Could Be** slides: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4_Lab.pdf
