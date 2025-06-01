@@ -23,7 +23,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
   - Hofman, J. M., Watts, D. J., Athey, S., Garip, F., Griffiths, T. L., Kleinberg, J., Margetts, H., Mullainathan, S., Salganik, M. J., Vazire, S., Vespignani, A., & Yarkoni, T. (2021). Integrating explanation and prediction in computational social science. *Nature, 595*(7866), 181–188. https://doi.org/10.1038/s41586-021-03659-0
   - Wallach, H. (2018). Computational social science ≠ computer science + social data. *Communications of the ACM, 61*(3), 42–44. https://doi.org/10.1145/3132698
 
-### Day 1 - CSS Overview
+### Day 1 - Welcome and Get Ready
 
 - **Morning**
   - **[Solomon Messing](https://solomonmg.github.io/) Guest Lecture with Catered Lunch**
@@ -31,7 +31,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - Aggarwal, M., Allen, J., Coppock, A., Frankowski, D., Messing, S., Zhang, K., Barnes, J., Beasley, A., Hantman, H., & Zheng, S. (2023). A 2 million-person, campaign-wide field experiment shows how digital advertising affects voter turnout. *Nature Human Behaviour, 7*(3), 332–341. https://doi.org/10.1038/s41562-022-01487-4
     - A secret embargoed paper at *Nature* to be sent via email; please do not share it with anyone outside the workshop---there is legal liability for doing so.
 - **Afternoon**
-  - **Seminar - CSS Overview:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.pdf
+  - **Seminar - Welcome:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.pdf
   - **Lab - Get Started with R/Python:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Lab/Day1.md
 
 ### Day 2 - Text (Basic: Dictionary and Classification)
@@ -89,6 +89,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
       - Zhou, A., Liu, W., & Yang, A. (2024). Politicization of science in COVID-19 vaccine communication: Comparing US politicians, medical experts, and government agencies. *Political Communication, 41*(4), 649–671. https://doi.org/10.1080/10584609.2023.2201184
     - **Social Networks**:
       - Zhou, A., & Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. *Social Media + Society, 7*(3), 205630512110475. https://doi.org/10.1177/20563051211047545
+    - **Visualization**
 
 ### Day 5 - The Web, Computational Infrastructure, and Innovative Datasets
 
