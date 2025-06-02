@@ -56,7 +56,7 @@ Each method is implemented in both R and Python (where applicable). We strongly 
 - API requests and responses
 - Model diagnostics and plotting
 
-## ✅ Suggested Order of Execution
+## Suggested Order of Execution
 
 1. `Embedding.R` and `Embedding.ipynb`
 2. `Google_Perspective.ipynb` and `Google_Perspective.R`

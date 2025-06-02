@@ -64,7 +64,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **[Measuring Culture]** Kozlowski, A. C., Taddy, M., & Evans, J. A. (2019). The geometry of culture: Analyzing the meanings of class through word embeddings. *American Sociological Review, 84*(5), 905–949. https://doi.org/10.1177/0003122419877135 [Presentation and Discussion Lead: Jiacheng Huang]
     - **[Sociology and History]** Knight, C. (2022). When corporations are people: Agent talk and the development of organizational actorhood, 1890–1934. *Sociological Methods & Research, 51*(4), 1634–1680. https://doi.org/10.1177/0049124122112<<2528 [Presentation and Discussion Lead: Michael Ofori]
 - **Afternoon**
-  - **Lab - Text (Advanced):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3/Day3.md
+  - **Lab - Text (Advanced):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day3/Lab/Day3.md
     - **Google Perspective**: https://www.perspectiveapi.com/
     - **Topic Modeling**:
       - Roberts, M. E., Stewart, B. M., Tingley, D., Lucas, C., Leder-Luis, J., Gadarian, S. K., Albertson, B., & Rand, D. G. (2014). Structural topic models for open-ended survey responses. *American Journal of Political Science, 58*(4), 1064–1082. https://doi.org/10.1111/ajps.12103
