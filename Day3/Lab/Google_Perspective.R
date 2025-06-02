@@ -2,7 +2,8 @@ if (!require("devtools")) install.packages("devtools")
 if (!require("peRspective")) install.packages("favstats/peRspective")
 
 # Set your API key first
-Sys.setenv(perspective_api_key = "AIzaSyBwX8iM_oV-oJtu4E8vVza45tjxhLdoOk4")  # Replace with your key
+Sys.setenv(perspective_api_key = "")  # Replace with your key
+# Go to this page to get your API key: https://console.cloud.google.com/apis/credentials if you have already enabled the API.
 
 # Analyze a single sentence for toxicity
 sentence <- "This is a beautiful and thoughtful comment."
