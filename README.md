@@ -82,7 +82,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **[Projection Data]** González-Bailón, S., Lazer, D., Barberá, P., Zhang, M., Allcott, H., Brown, T., Crespo-Tenorio, A., Freelon, D., Gentzkow, M., Guess, A. M., Iyengar, S., Kim, Y. M., Malhotra, N., Moehler, D., Nyhan, B., Pan, J., Rivera, C. V., Settle, J., Thorson, E., … Tucker, J. A. (2023). Asymmetric ideological segregation in exposure to political news on Facebook. *Science, 381*(6656), 392–398. https://doi.org/10.1126/science.ade7138
     - **[Historical Sociology - Network is Everywhere]** Zhao, J., Wei, Y., & Wu, B. (2022). Analysis of the social network and the evolution of the influence of ancient Chinese poets. *Social Science Computer Review, 40*(4), 1014–1034. https://doi.org/10.1177/08944393211028182 [Presentation and Discussion Lead: Rita Tang]
 - **Afternoon**
-  - **Lab - Networks:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4.md
+  - **Lab - Networks:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Lab/Day4.md
     - **What Networks Could Be** slides: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Day4_Lab.pdf
     - **Semantic Networks**:
       - Zhou, A., Liu, W., & Yang, A. (2024). Politicization of science in COVID-19 vaccine communication: Comparing US politicians, medical experts, and government agencies. *Political Communication, 41*(4), 649–671. https://doi.org/10.1080/10584609.2023.2201184
@@ -104,7 +104,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **[Industry Collaboration]** Althoff, T., Sosič, R., Hicks, J. L., King, A. C., Delp, S. L., & Leskovec, J. (2017). Large-scale physical activity data reveal worldwide activity inequality. *Nature, 547*(7663), 336–339. https://doi.org/10.1038/nature23018
     - **[Data that Companies are More Comfortable Sharing]** Zagheni, E., Weber, I., & Gummadi, K. (2017). Leveraging Facebook’s advertising platform to monitor stocks of migrants. *Population and Development Review, 43*(4), 721–734. https://doi.org/10.1111/padr.12102
 - **Afternoon**
-  - **Lab - The Web, Computational Infrastructure, and Innovative Datasets:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Day5.md
+  - **Lab - The Web, Computational Infrastructure, and Innovative Datasets:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Lab/Day5.md
     - **Web Scraping**:
     - **Reddit API**:
       - Used to be the gold standard: https://pushshift.io/signup
@@ -133,7 +133,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **[Video]** Lu, Y., Pan, J., Xu, X., & Xu, Y. (2025). Decentralized propaganda in the era of digital media: The massive presence of the Chinese state on Douyin. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5145803
     - **[Video]** Legewie, N. M., & Nassauer, A. (2023). Current and future debates in video data analysis. *Sociological Methods & Research, 52*(3), 1107–1119. https://doi.org/10.1177/00491241231178275
 - **Afternoon**
-  - **Lab - Image/Audio/Video:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day6/Day6.md
+  - **Lab - Image/Audio/Video:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day6/Lab/Day6.md
     - **Athec:**
     - **Face++:**
 
@@ -156,7 +156,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
       - **[GIS]** Yang, T., Ticona, J., & Lelkes, Y. (2021). Policing the digital divide: Institutional gate-keeping & criminalizing digital inclusion. *Journal of Communication, 71*(4), 572–597. https://doi.org/10.1093/joc/jqab019 [Presentation and Discussion Lead: Paulina Vergara]
       - **[BLM]** Wang, Y., Qin, M. S., Luo, X., & Kou, Y. (Eric). (2022). Frontiers: How support for black lives matter impacts consumer responses on social media. *Marketing Science, 41*(6), 1029–1044. https://doi.org/10.1287/mksc.2022.1372 [Presentation and Discussion Lead: Jinny Zhang]
 - **Afternoon**
-  - **Lab - Looking Ahead and LLM (Jiacheng Huang):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Day7.md
+  - **Lab - Looking Ahead and LLM (Jiacheng Huang):** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day7/Lab/
     - **LLM Text and Image Coding**
     - Lee, T. B., & Trott, S. (2023, July 27). Large language models, explained with a minimum of math and jargon. *Understanding AI*. https://www.understandingai.org/p/large-language-models-explained-with
     - Argyle, L. P., Bail, C. A., Busby, E. C., Gubler, J. R., Howe, T., Rytting, C., Sorensen, T., & Wingate, D. (2023). Leveraging AI for democratic discourse: Chat interventions can improve online political conversations at scale. *Proceedings of the National Academy of Sciences, 120*(41), e2311627120. https://doi.org/10.1073/pnas.2311627120
