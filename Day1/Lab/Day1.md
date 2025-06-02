@@ -298,7 +298,7 @@ We’ll use the Anaconda distribution of Python. It includes Python, JupyterLab,
    import pandas as pd
    import numpy as np
    ```
-3. In the second cell, create a list:
+3. In the second cell, get/change working directory:
    ```python
    # Check current working directory
    import os
@@ -306,13 +306,13 @@ We’ll use the Anaconda distribution of Python. It includes Python, JupyterLab,
    # Change working directory (optional)
    # os.chdir("/your/path/here")
    ```
-3. In the third cell, create a list:
+4. In the third cell, create a list:
    ```python
    # Create a list
    my_list = [1, 2, 3, 4, 5]
    print(my_list)
    ```
-4. In the fourth cell, create a dictionary:
+5. In the fourth cell, create a dictionary:
    ```python
    # Create a dictionary and convert to a DataFrame
    my_data_frame = pd.DataFrame({
@@ -321,49 +321,49 @@ We’ll use the Anaconda distribution of Python. It includes Python, JupyterLab,
    })
    print(my_data_frame)
    ```
-5. In the fifth cell, read in a CSV file:
+6. In the fifth cell, read in a CSV file:
    ```python
    data = pd.read_csv("Day1.csv")
    # View data
    data
    ```
-6. In the sixth cell, view the first few rows of the data:
+7. In the sixth cell, view the first few rows of the data:
    ```python
    data.head()
    ```
-7. In the seventh cell, view the last few rows of the data:
+8. In the seventh cell, view the last few rows of the data:
    ```python
    data.tail()
    ```
-8. In the eighth cell, view the column names of the data:
+9. In the eighth cell, view the column names of the data:
    ```python
    data.columns
    ```
-9. In the ninth cell, view the summary of the data:
+10. In the ninth cell, view the summary of the data:
    ```python
    data.describe()
    ```
-10. In the tenth cell, view the first column of the data:
+11. In the tenth cell, view the first column of the data:
     ```python
     data.iloc[:, 0]
     ```
-11. In the eleventh cell, view the first row of the data:
+12. In the eleventh cell, view the first row of the data:
     ```python
     data.iloc[0]
     ```
-12. In the twelfth cell, view the last column of the data:
+13. In the twelfth cell, view the last column of the data:
     ```python
     data.iloc[:, -1]
     ```
-13. In the thirteenth cell, view the first 10 rows of the data:
+14. In the thirteenth cell, view the first 10 rows of the data:
     ```python
     data.iloc[:10]
     ```
-14. In the fourteenth cell, once you know which column to look into, you can describe the data:
+15. In the fourteenth cell, once you know which column to look into, you can describe the data:
     ```python
     data['favorites'].describe()
     ```
-15. In the fifteenth cell, you can try different functions:
+16. In the fifteenth cell, you can try different functions:
     ```python
     data["favorites"].mean()
     data["favorites"].median()
@@ -372,17 +372,17 @@ We’ll use the Anaconda distribution of Python. It includes Python, JupyterLab,
     data["favorites"].max()
     data["favorites"].min()
     ```
-16. In the sixteenth cell, you can also look at the correlation of two variables:
+17. In the sixteenth cell, you can also look at the correlation of two variables:
     ```python
     data[['favorites', 'retweets']].corr()
     # The two brackets "[[" indicate which columns to draw
     ```
-17. You can also use a more logical approach:
+18. You can also use a more logical approach:
     ```python
     # you pick out favorites first, and then calculate the correlation with retweets
     data["favorites"].corr(data["retweets"])
     ```
-18. In Python, we usually use matplotlib to plot the data:
+19. In Python, we usually use matplotlib to plot the data:
     ```python
     # Plotting
     import matplotlib.pyplot as plt
@@ -393,7 +393,7 @@ We’ll use the Anaconda distribution of Python. It includes Python, JupyterLab,
     plt.title("Scatterplot of Favorites vs Retweets")
     plt.show()
     ```
-19. Run a linear regression with statsmodels.api:
+20. Run a linear regression with statsmodels.api:
     ```python
     import statsmodels.api as sm
     X = data["favorites"]
