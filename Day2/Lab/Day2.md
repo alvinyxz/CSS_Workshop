@@ -49,19 +49,36 @@ You will:
      - Over time?
 5. **Explore other methods** with the `Syuzhet` and `SentimentAnalysis` packages on your own.
 
-## [Optional] Moral Foundations
+## Classification
 
-First, **Read the assigned Moral Foundation reading** from Hopp et al (2021). The `Hopp 2021.pdf` file is available in this same directory.
-   - **Key points to focus on**:
-     - What are moral foundations?
-     - How does the Extended Moral Foundation Dictionary differ from previous approaches?
-     - What are the implications of using this dictionary for text analysis?
+In this section, we will learn how to classify comments as either uncivil (1) or civil (0) using supervised machine learning in R.
 
-In the folder, I have a `eMFDscore_Tutorial.ipynb` folder, provided by the Extended Moral Foundation authors in terms of how to use their package. You can run open this in Jupyter Notebook to have a look at how to use the package first.
+We’ll use a small labeled set of 600 political comments:
+- 300 comments are labeled as civil
+- 300 comments are labeled as uncivil
+- These comments are labeled by human annotators (ground-truth)
+- We will use 80% of these comments for training and 20% for testing our models in our `R` script
+- This file is available as `comments_labeled.csv`
 
-The instructions of how to use the package is also available in the GitHub repository: [Extended Moral Foundation Dictionary](https://github.com/medianeuroscience/emfdscore).
+Once we train our models, we will apply them to a larger set of 1500 unlabeled comments to predict their labels. This file is available as `comments_test.csv`.
 
-It is quite complicated to install and use eMDF and I have personally encountered many issues with it. You can first follow `eMFD_Instruction.ipynb` to install the package and then run the `eMFD.ipynb` to see if you can get it to work, so that we can get the Moral Foundation scores for the presidential speeches dataset.
+Our focus will be on understanding the core concepts behind text classification, how to process text into features that a machine can learn from, and how to compare the performance of multiple classification models.
+
+We’ll walk through the full text classification workflow:
+1. Load and explore labeled and unlabeled data
+2. Preprocess text: tokenize, remove stopwords, and calculate TF-IDF scores
+3. Create a document-term matrix (DTM) to convert text into numeric input
+4. Split the labeled data into training (80%) and test (20%) sets
+5. Train multiple models using the caret package:
+   - Logistic Regression (regLogistic)
+   - K-Nearest Neighbors (KNN)
+   - Support Vector Machine (SVM) (svmLinear3)
+   - Random Forest (ranger)
+6. Evaluate model performance using accuracy, F1 score, and confusion matrices
+7. Compare models to decide which one performs best
+8. Optionally, predict the labels for the 1,500 new, unlabeled comments
+
+Open the file `Classification.R` and follow along in RStudio.
 
 ## Google Perspective API
 
