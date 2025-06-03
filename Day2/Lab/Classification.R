@@ -8,10 +8,12 @@
 # install.packages("tidyverse")   # Data wrangling
 # install.packages("tidytext")    # Text processing
 # install.packages("caret")       # Machine learning
+# install.packages("tm")          # Text mining
 
 library("tidyverse")
 library("tidytext")
 library("caret")
+library("tm")
 
 # ================================
 # 2. Read in your data
