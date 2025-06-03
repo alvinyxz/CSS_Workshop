@@ -27,8 +27,18 @@ analogy_result <- closest_to(model,  ~"king"-"man"+"woman")
 print(analogy_result)
 analogy_result <- closest_to(model,  ~"guy"-"man"+"woman")
 print(analogy_result)
+analogy_result <- closest_to(model,  ~"china"-"beijing"+"tokyo")
+print(analogy_result)
+analogy_result <- closest_to(model,  ~"tokyo"-"japan"+"germany")
+print(analogy_result)
 
-# Step 7: Visualizing word embeddings using t-SNE and ggplot2
+# Step 7: Compute similarity between two words
+similarity <- similarity(model, "beijing", "china")
+print(similarity)
+similarity <- similarity(model, "beijing", "chair")
+print(similarity)
+
+# Step 8: Visualizing word embeddings using t-SNE and ggplot2
 library("Rtsne")
 library("ggplot2")
 
