@@ -265,7 +265,7 @@ test_results <- test_df %>%
   left_join(predictions_df, by = "id") %>%
   select(id, predicted_label, text)
 # Save result
-write_csv(test_results, "comments_test_predictions.csv")
+write_csv(test_results, "comments_test_predictions_R.csv")
 # Done! You now have a file with predicted labels for new comments.
 # Open it, and see if the labels make sense.
 # You will find some are misclassified, but many are correct (hopefully).
