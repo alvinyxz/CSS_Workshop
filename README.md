@@ -50,7 +50,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **LIWC:** Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. *Journal of Language and Social Psychology, 29*(1), 24–54. https://doi.org/10.1177/0261927X09351676
     - **Sentiment:**
       - `AFINN`, `bing`, and `nrc` in `tidytext`
-    - **Moral Foundations:** Hopp, F. R., Fisher, J. T., Cornell, D., Huskey, R., & Weber, R. (2021). The extended Moral Foundations Dictionary (eMFD): Development and applications of a crowd-sourced approach to extracting moral intuitions from text. *Behavior Research Methods, 53*(1), 232–246. https://doi.org/10.3758/s13428-020-01433-0
+    - **Classifier in R**
     - Register for **Google Perspective** which we will use next class: https://www.perspectiveapi.com/
 
 ### Day 3 - Text (Advanced: API, Topic Modeling, Embedding, and Innovative Use)
