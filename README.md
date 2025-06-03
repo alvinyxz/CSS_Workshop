@@ -51,7 +51,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **Sentiment:**
       - `AFINN`, `bing`, and `nrc` in `tidytext`
     - **Classifier in R**
-    - Register for **Google Perspective** which we will use next class: https://www.perspectiveapi.com/
+    - Register for **Google Perspective** which we will use at our next class: https://www.perspectiveapi.com/
 
 ### Day 3 - Text (Advanced: API, Topic Modeling, Embedding, and Innovative Use)
 
