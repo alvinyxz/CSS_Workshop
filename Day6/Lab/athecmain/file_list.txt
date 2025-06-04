@@ -1,0 +1,27 @@
+./5 demo saliency.py
+./file_list.txt
+./.DS_Store
+./athec/misc.py
+./athec/sharp.py
+./athec/box.py
+./athec/color.py
+./athec/edge.py
+./athec/colordict.py
+./athec/__init__.py
+./athec/blur.py
+./athec/shape.py
+./athec/saliency.py
+./athec/segment.py
+./1 demo preprocess.py
+./image/original/example1.jpg
+./image/original/example3.jpg
+./image/original/example2.jpg
+./image/resize/example1.jpg
+./image/resize/example3.jpg
+./image/resize/example2.jpg
+./README.md
+./6 demo sharp.py
+./2 demo color.py
+./3 demo edge.py
+./7 demo shape.py
+./4 demo segment.py
