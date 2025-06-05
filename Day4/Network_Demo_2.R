@@ -48,8 +48,8 @@ PageRank <- page_rank(g, weights = E(g)$weight)$vector
 print("PageRank:")
 print(PageRank)
 
-# Burt's Constraint (same value for unweighted or weighted)
-Constraint <- constraint(g) # or constraint(g, weights = E(g)$weight)
+# Burt's Constraint
+Constraint <- constraint(g, weights = E(g)$weight)
 print("Burt’s Constraint:")
 print(Constraint)
 
