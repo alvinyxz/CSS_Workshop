@@ -12,6 +12,8 @@ Open the file ERGM.R. We’ll build and analyze a small network using the `ergm`
 
 ## Part 2: Semantic Network Construction
 
+Go to this link to download the three files in the folder: https://drive.google.com/drive/folders/1sQ-ATsCkXYERRb3FHKZDYT9HcDgfXQlB?usp=sharing
+
 Open the file Semantic_Network.R. Here, we’ll use co-occurrence of words in government agencies' COVID-19 Facebook posts to build semantic networks. This demonstrates how networks can be used not only to model people or organizations, but also ideas and meaning structures.
 
 You can also read my paper to see how I used this semantic network in my paper. One thing to note is that the three files used in this example `Agency.csv`, `Congress.csv`, and `Hospital.csv` (in this folder) are not the exactly same as the ones used in the paper, because my paper used a larger dataset. However, the code and methodology remain the same.
