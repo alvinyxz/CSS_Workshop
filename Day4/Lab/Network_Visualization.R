@@ -142,4 +142,4 @@ ggraph(tg, layout = "fr") +
 ggsave("network_plot_ggraph.pdf",
        width = 10,
        height = 7)
-# Have a look at the saved image
+ # Have a look at the saved image
