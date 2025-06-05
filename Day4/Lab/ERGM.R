@@ -59,8 +59,8 @@ summary(model1)
 summary(flomarriage ~ edges + triangle)
 model2 <- ergm(flomarriage ~ edges + triangle)
 summary(model2)
-# The triangle coefficient tells us whether closed triads (friend-of-a-friend) are more/less likely
-# It shows that it is more likely for edges to form that would close triangles than random pairs of nodes
+# The triangle coefficient tells us whether a tie is more/less likely to form to close a triad (friend-of-a-friend)
+# The triangle coefficient here is positive: It is more likely for edges to form that would close triangles than edges connecting random pairs of nodes
 # However, the coefficient is not statistically significant, indicating that triangles are not a strong predictor
 
 # =============================
@@ -92,8 +92,9 @@ model5 <- ergm(flomarriage ~ edges + nodecov("wealth") + absdiff("wealth"))
 summary(model5)
 # Interpretation:
 # The wealth coefficient: positive but not significant
-# absdiff("wealth") coefficient: positive but not significant
-# Both coefficients are not significant not
-# Now you should see the potential issues with ERGM
+# The absdiff("wealth") coefficient: positive but not significant
+# Both coefficients are not significant, however (the wealth coefficient used to be significant)
+
+# Now you should see the potential issues with ERGM:
 # You can include or exclude terms, potentially "p-hacking"
 # Similar to regression
