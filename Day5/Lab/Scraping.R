@@ -67,7 +67,7 @@ View(gdp_table)
 # Therefore, we can use the following code to remove them
 page %>% html_nodes("sup.reference") %>% xml_remove()
 # And then we run the whole thing again
-tables <- html_table(page, fill = TRUE)
+tables <- html_table(page)
 gdp_table <- tables[[3]]
 View(gdp_table)
 # Perfect!
@@ -155,8 +155,8 @@ page <- read_html(url)
 
 # Remember, for each element that you want to scrape, you can right-click on it,
 # select "Inspect", and find how it is nested in the HTML.
-# Also, you can save the page as an HTML file, tell ChatGPT what you want to scrape,
-# And ChatGPT may be able to tell you what code you should write in R to scrape it :)
+# Also, you can save the page as an HTML file, send it to ChatGPT and tell ChatGPT what you want to scrape,
+# ChatGPT may be able to tell you what code you should write in R to scrape it :)
 
 # =========================================
 # Your code below
