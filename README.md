@@ -29,7 +29,7 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
   - **[Solomon Messing](https://solomonmg.github.io/) Guest Lecture with Catered Lunch**
   - **Readings:**
     - Aggarwal, M., Allen, J., Coppock, A., Frankowski, D., Messing, S., Zhang, K., Barnes, J., Beasley, A., Hantman, H., & Zheng, S. (2023). A 2 million-person, campaign-wide field experiment shows how digital advertising affects voter turnout. *Nature Human Behaviour, 7*(3), 332–341. https://doi.org/10.1038/s41562-022-01487-4
-    - A secret embargoed paper at *Nature* to be sent via email; please do not share it with anyone outside the workshop---there is legal liability for doing so.
+    - A secret embargoed paper to be sent via email; please do not share it with anyone outside the workshop---there is legal liability for doing so.
 - **Afternoon**
   - **Seminar - Welcome:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Day1.pdf
   - **Lab - Get Started with R/Python:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day1/Lab/Day1.md
@@ -84,11 +84,10 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 - **Afternoon**
   - **Lab - Networks:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Lab/Day4.md
     - **What Networks Could Be** slides: https://github.com/alvinyxz/CSS_Workshop/blob/main/Day4/Lab/Day4_Lab.pdf
-    - **Semantic Networks**:
+    - **ERGM**
+    - **Semantic Networks**
       - Zhou, A., Liu, W., & Yang, A. (2024). Politicization of science in COVID-19 vaccine communication: Comparing US politicians, medical experts, and government agencies. *Political Communication, 41*(4), 649–671. https://doi.org/10.1080/10584609.2023.2201184
-    - **Social Networks**:
-      - Zhou, A., & Yang, A. (2021). The longitudinal dimension of social-mediated movements: Hidden brokerage and the unsung tales of movement spilloverers. *Social Media + Society, 7*(3), 205630512110475. https://doi.org/10.1177/20563051211047545
-    - **Visualization**
+    - **Network Visualization**
 
 ### Day 5 - The Web, Computational Infrastructure, and Innovative Datasets
 
@@ -106,6 +105,8 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
 - **Afternoon**
   - **Lab - The Web, Computational Infrastructure, and Innovative Datasets:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day5/Lab/Day5.md
     - **Web Scraping**:
+      - `Rvest`
+      - `Selenium`
     - **Reddit API**:
       - Used to be the gold standard: https://pushshift.io/signup
       - PushShift's new successor: https://www.pullpush.io/
