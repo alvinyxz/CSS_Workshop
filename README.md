@@ -135,8 +135,8 @@ The GitHub page is organized into eight folders (Day 0 through Day 7), each corr
     - **[Video]** Legewie, N. M., & Nassauer, A. (2023). Current and future debates in video data analysis. *Sociological Methods & Research, 52*(3), 1107–1119. https://doi.org/10.1177/00491241231178275
 - **Afternoon**
   - **Lab - Image/Audio/Video:** https://github.com/alvinyxz/CSS_Workshop/blob/main/Day6/Lab/Day6.md
-    - **Athec:**
-    - **Face++:**
+    - **Athec:** Peng, Y. (2022). Athec: A Python library for computational aesthetic analysis of visual media in social science research. *Computational Communication Research, 4*(1). https://doi.org/10.5117/CCR2022.1.009.PENG
+    - **Face++: API Application**
 
 ### Day 7 - Looking Ahead and LLM
 
