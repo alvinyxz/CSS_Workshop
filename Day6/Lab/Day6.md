@@ -13,5 +13,5 @@ You might find it difficult to download folders from GitHub. One trick is to cop
 - To the right of the `base (root)` environment, click on the triangle and select `Open Terminal`
 - Type in `conda install -c conda-forge pyemd`
 - It will take a while to install, but it should work
-- Then you type in `pip install athech` to install the `athec` package
+- Then you type in `pip install athec` to install the `athec` package
 - Then, go back to our script, everything should work fine
