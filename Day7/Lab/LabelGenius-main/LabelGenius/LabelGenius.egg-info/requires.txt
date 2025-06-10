@@ -1,0 +1,10 @@
+torch
+transformers
+tqdm
+scikit-learn
+pandas
+numpy
+Pillow
+sqlitedict
+openai
+loguru

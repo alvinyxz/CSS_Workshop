@@ -1,0 +1,9 @@
+include README.md
+include setup.py
+include labelgenius/*.py
+global-exclude LICENSE
+global-exclude *.egg-info
+global-exclude __pycache__
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .ipynb_checkpoints

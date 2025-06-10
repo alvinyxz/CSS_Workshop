@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: LabelGenius
+Version: 0.1.0
+Summary: A package for zero-shot and fine-tuned classification using CLIP and GPT models.
+Home-page: https://github.com/your_username/LabelGenius
+Author: Jiacheng Huang
+Author-email: your_email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: sqlitedict
+Requires-Dist: openai
+Requires-Dist: loguru
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

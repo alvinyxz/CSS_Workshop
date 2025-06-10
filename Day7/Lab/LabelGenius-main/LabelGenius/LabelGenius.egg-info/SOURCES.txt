@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+LabelGenius.egg-info/PKG-INFO
+LabelGenius.egg-info/SOURCES.txt
+LabelGenius.egg-info/dependency_links.txt
+LabelGenius.egg-info/requires.txt
+LabelGenius.egg-info/top_level.txt
+labelgenius/LabelGenius.py
+labelgenius/__init__.py
