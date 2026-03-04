@@ -21,7 +21,7 @@ if (!require("ggplot2")) install.packages("ggplot2")
 # Step 3: Load pre-trained GloVe vectors into R
 # ====================================================
 
-# Load the GloVe 100-dimensional embedding
+# Load the GloVe 200-dimensional embedding
 glove_embeddings <- read_delim("glove.6B.300d.txt",
                                delim = " ", quote = "", col_names = FALSE)
 # The first column is the word, the rest are vector values
